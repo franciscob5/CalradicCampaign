@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <string id="str_multiplayer_scene_name.CC_0_battle_1" text="{=*}Ambush of the Vanguard" />
+  <string id="str_multiplayer_scene_name.CC_0_battle_2" text="{=*}The Valley Rout" />
+  <string id="str_multiplayer_scene_name.CC_0_battle_3" text="{=*}Neretze's Last Stand" />
+  <string id="str_multiplayer_scene_name.CC_1_battle_1" text="{=*}Miron River Ruins" />
+  <string id="str_multiplayer_scene_name.CC_1_battle_2" text="{=*}Gersegos Village" />
+  <string id="str_multiplayer_scene_name.CC_2_battle_1" text="{=*}Desert Outpost" />
+  <string id="str_multiplayer_scene_name.CC_2_battle_3" text="{=*}Watering Grounds" />
+  <string id="str_multiplayer_scene_name.CC_2_siege_1" text="{=*}Sentinel of the Pass" />
+  <string id="str_multiplayer_scene_name.scn_BattaniaThrone" text="{=*}Battania Throne" />
+  <string id="str_multiplayer_scene_name.mp_empire_arena_1_1_2" text="{=*}Empire Arena" />
+  <string id="str_multiplayer_scene_name.scn_DesertOasis" text="{=*}Desert Oasis" />
+  <string id="str_multiplayer_scene_name.scn_Ruin_Ambush" text="{=*}Ruins Ambush" />
+  <string id="str_multiplayer_scene_name.scn_FarmValley" text="{=*}Farm Valley" />
+  <string id="str_multiplayer_scene_name.scn_waterfall" text="{=*}Waterfall" />
+  <string id="str_multiplayer_scene_name.MP_Thractorae_Battle" text="{=*}Thractorae Battle" />
+  <string id="str_multiplayer_scene_name.MP_Red_Timber" text="{=*}Red Timber" />
+  <string id="str_multiplayer_scene_name.MP_Battle_for_Ulaan" text="{=*}Battle for Ulaan" />
+  <string id="str_multiplayer_scene_name.scn_Imperial_Senate" text="{=*}Imperial Senate" />
+  <string id="str_multiplayer_scene_name.scn_Imperial_Siege" text="{=*}Imperial Siege" />  
+  <string id="str_multiplayer_scene_name.scn_Karakaz_River_Ford" text="{=*}Karakaz River Ford" />
+  <string id="str_multiplayer_scene_name.scn_Skala_Landing_Winter" text="{=*}Skala Landing Winter" />
+  <string id="str_multiplayer_scene_name.Lords_Hall_Sturgia" text="{=*}Lords Hall Sturgia" />
+  <string id="str_multiplayer_scene_name.CC_4_battle_1" text="{=*}The Sacking of Druimmor" /> 
+  <string id="str_multiplayer_scene_name.CC_4_siege_1" text="{=*}Daybreak Escalade" />
+  <string id="str_multiplayer_scene_name.scn_VlandianHall" text="{=*}Vlandian Hall" /> 
+  <string id="str_multiplayer_scene_name.CC_5_battle_1" text="{=*}Miron Ford Logging Camp" /> 
+  <string id="str_multiplayer_scene_name.CC_5_siege_1" text="{=*}Siege of Omor" />   
+  <string id="str_multiplayer_scene_name.CC_5_battle_2" text="{=*}Desert Oasis" />    
+  <string id="str_multiplayer_scene_name.CC_6_battle_1" text="{=*}Hoqqa Village" />  
+  <string id="str_multiplayer_scene_name.CC_6_battle_1a" text="{=*}Hoqqa Village" />      
+  <string id="str_multiplayer_scene_name.CC_6_siege_1" text="{=*}The Slopes of Erzenur" />
+  <string id="str_multiplayer_scene_name.CC_7_siege_Epicrotea" text="{=*}Thractoraen Wall" /> 
+  <string id="str_multiplayer_scene_name.CC_7_battle_Usanc" text="{=*}Usanc Melee" />
+  <string id="str_multiplayer_scene_name.CC_8_battle_1" text="{=*}Storm over Mazhadan" />
+  <string id="str_multiplayer_scene_name.CC_8_siege_SturgiaFort" text="{=*}Frontier Outpost" />
+  <string id="str_multiplayer_scene_name.CC_11_battle" text="{=*}Raid on Deriat" />
+  <string id="str_multiplayer_scene_name.CC_11_siege" text="{=*}Forested Fortress" />
+  <string id="str_multiplayer_scene_name.CC_12_battle" text="{=*}Assault Through the Forest" />
+  <string id="str_multiplayer_scene_name.CC_12_battle_2" text="{=*}Canyon Clash" />
+  <string id="str_multiplayer_scene_name.scn_Training" text="{=*}Training Grounds" />
+  <string id="str_multiplayer_scene_name.scn_Island_Landing" text="{=*}Island Landing" />
+</strings>

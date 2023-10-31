@@ -1,0 +1,11 @@
+<Brushes>
+
+  
+  
+  <Brush Name="ServerMessage.Font" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#AB0F03FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0" TextOutlineAmount="0.3" TextOutlineColor="#000000FF" FontSize="50" />
+    </Styles>
+  </Brush>
+  
+</Brushes>

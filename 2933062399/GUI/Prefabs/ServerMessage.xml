@@ -1,0 +1,14 @@
+<Prefab>
+  <Constants>
+  <Constant Name="TypingArea.Height" Value="40" />
+    <Constant Name="TypingArea.Width" Value="350" />
+    </Constants>
+
+    <Window>
+        <Widget HorizontalAlignment="Center" VerticalAlignment="Center" HeightSizePolicy="StretchToParent" WidthSizePolicy="Fixed" SuggestedWidth="450" >
+            <Children>
+                <TextWidget VerticalAlignment="Center" HorizontalAlignment="Center" MarginBottom="20" WidthSizePolicy="StretchToParent"  Brush="ServerMessage.Font" Text="@ServerMessage" IsEnabled="true"/>
+            </Children>
+        </Widget>
+    </Window>
+</Prefab>

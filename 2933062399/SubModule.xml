@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Calradic Campaign"/>
+	<Id value="CCModule"/>
+	<Version value="v1.1.4"/>
+	<DefaultModule value="false"/>
+	<ModuleCategory value="Multiplayer"/>
+	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.1.4" Optional="false"/>
+	</DependedModules>
+	<SubModules>
+    <SubModule>
+    <Name value="CCMod" />
+    <DLLName value="CCMod.dll" />
+      <SubModuleClassType value="CCMod.CCMod" />
+        <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+        </Tags>
+    </SubModule>
+		<SubModule>
+			<Name value="ChatCommands" />
+			<DLLName value="ChatCommands.dll" />
+			<SubModuleClassType value="ChatCommands.ChatCommandsSubModule" />
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="GameText" path="scene_strings"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="MPClassDivisions" path="mpclassdivisions"/>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="MPCharacters" path="mpcharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Items" path="mpitems"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="CraftingPieces" path="mp_crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="BasicCultures" path="mpcultures"/>
+				<IncludedGameTypes>
+					<GameType value = "MultiplayerGame"/>
+				</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>

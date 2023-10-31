@@ -1,0 +1,3111 @@
+<?xml version="1.0"?>
+<scene name="scn_waterfall" version="2">
+	<flora_bounding_rect min="64.317, 21.366" max="491.606, 582.556"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="-3594.691, -3607.608"/>
+		<property name="physics_world_max_" value="600.000, 600.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="152.938, 65.210, 115.346" rotation_euler="0.000, 0.000, 2.038"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_c">
+			<transform position="298.906, 309.821, 75.950" rotation_euler="0.300, 1.116, 0.933"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="170.597, 326.310, 80.531" rotation_euler="0.000, 0.606, -0.364" scale="1.814, 1.814, 1.814"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="175.000, 280.660, 81.199" rotation_euler="-0.257, 0.034, -1.052"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="276.545, 176.669, 85.111" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="163.263, 106.435, 79.576" rotation_euler="0.000, 0.000, 1.973" scale="1.179, 1.179, 1.179"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="180.111, 317.288, 81.355" rotation_euler="0.312, 0.000, 0.537"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_a">
+			<transform position="316.022, 229.889, 81.661" rotation_euler="0.000, -0.306, 1.168"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_c">
+			<transform position="196.946, 44.757, 81.446" rotation_euler="0.000, 0.000, -1.235"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_l">
+			<transform position="231.198, 562.928, 92.184" rotation_euler="0.000, 0.000, 2.924"/>
+		</game_entity>
+		<game_entity prefab="market_sheepHead_basket">
+			<transform position="310.768, 235.599, 79.370" rotation_euler="0.000, 0.000, -1.066" scale="1.493, 1.493, 1.493"/>
+		</game_entity>
+		<game_entity prefab="bd_table_aserai_tavern_a">
+			<transform position="77.776, 342.501, 93.822" rotation_euler="0.000, 0.000, -0.046"/>
+		</game_entity>
+		<game_entity prefab="bd_table_c">
+			<transform position="79.283, 346.376, 93.857" rotation_euler="0.000, 0.000, 0.597"/>
+		</game_entity>
+		<game_entity prefab="vlandia_bench_a_unsittable">
+			<transform position="83.601, 339.587, 93.717" rotation_euler="0.000, 0.000, 0.555"/>
+		</game_entity>
+		<game_entity prefab="vlandia_bench_a_unsittable">
+			<transform position="82.444, 341.428, 93.643" rotation_euler="0.000, 0.000, 0.555"/>
+		</game_entity>
+		<game_entity prefab="vlandia_bench_a_unsittable">
+			<transform position="84.496, 346.901, 93.862" rotation_euler="0.000, 0.000, 1.321"/>
+		</game_entity>
+		<game_entity prefab="vlandia_bench_a_unsittable">
+			<transform position="82.259, 347.706, 93.768" rotation_euler="0.000, 0.000, 1.321"/>
+		</game_entity>
+		<game_entity prefab="vlandia_bench_a_unsittable">
+			<transform position="77.952, 343.438, 93.828" rotation_euler="0.000, 0.000, -0.025"/>
+		</game_entity>
+		<game_entity prefab="vlandia_bench_a_unsittable">
+			<transform position="77.978, 341.528, 93.769" rotation_euler="0.000, 0.000, -0.020"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="87.154, 343.852, 93.867" rotation_euler="0.000, 0.000, -2.758"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="86.462, 343.647, 93.856" rotation_euler="0.000, 0.000, -2.626"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="85.593, 343.388, 93.817" rotation_euler="0.000, 0.000, -2.975"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="79.681, 338.899, 93.766" rotation_euler="0.000, 0.000, -2.424"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="79.152, 338.302, 93.807" rotation_euler="0.000, 0.000, -2.311"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="78.575, 337.754, 93.849" rotation_euler="0.000, 0.000, -2.455"/>
+		</game_entity>
+		<game_entity prefab="local_envmap_prop">
+			<transform position="83.472, 255.671, 92.443" rotation_euler="0.000, 0.000, -0.038" scale="43.933, 44.698, 21.110"/>
+		</game_entity>
+		<game_entity prefab="local_envmap_prop">
+			<transform position="80.865, 341.253, 92.539" rotation_euler="0.000, 0.000, 0.048" scale="48.466, 58.926, 32.161"/>
+		</game_entity>
+		<game_entity prefab="cave_corridor_a">
+			<transform position="84.860, 292.467, 93.278" rotation_euler="0.000, 0.000, 0.715" scale="1.129, 1.129, 1.129"/>
+		</game_entity>
+		<game_entity prefab="cave_corridor_a">
+			<transform position="78.665, 303.107, 93.439" rotation_euler="0.000, 0.000, 0.415" scale="1.513, 1.513, 1.513"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="81.828, 306.017, 93.833" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="283.828, 196.346, 86.339" rotation_euler="0.340, 0.000, 2.486" scale="4.238, 4.238, 4.238"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="142.079, 159.209, 111.217" rotation_euler="0.000, 0.473, 1.799" scale="1.164, 1.164, 1.164"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="414.808, 571.357, 81.137" rotation_euler="0.000, 0.000, -0.513" scale="1.236, 1.794, 1.794"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="316.488, 248.346, 79.190" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="177.438, 530.378, 82.729" rotation_euler="0.000, 0.000, 1.270" scale="1.545, 1.545, 1.545"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="383.194, 225.921, 57.583" rotation_euler="0.000, 0.000, 0.236"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_c2">
+			<transform position="175.100, 317.375, 78.890" rotation_euler="1.353, -3.018, 1.853"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="366.429, 317.897, 63.597" rotation_euler="-0.025, -0.085, 1.745" scale="0.488, 0.488, 0.488"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="258.263, 295.587, 74.796" rotation_euler="-0.125, 0.276, 0.856" scale="0.837, 0.837, 0.837"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="370.219, 348.660, 52.290" rotation_euler="0.000, 0.000, 3.096" scale="0.159, 0.159, 0.159"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="192.843, 279.510, 85.140" rotation_euler="-1.154, -0.116, -0.941"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="192.090, 294.404, 86.191" rotation_euler="0.000, 0.000, 1.557"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="122.884, 192.604, 117.752" rotation_euler="0.000, 0.000, 0.591"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_a">
+			<transform position="504.067, 273.631, 56.008" rotation_euler="0.000, 0.000, -1.013" scale="1.222, 1.222, 1.222"/>
+		</game_entity>
+		<game_entity prefab="valley_mountain_d">
+			<transform position="1147.056, 662.386, -29.466" rotation_euler="0.000, 0.000, 2.586" scale="1.969, 1.969, 2.397"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_d2">
+			<transform position="175.890, 316.669, 78.283" rotation_euler="-0.740, 0.000, 0.000" scale="1.406, 1.406, 1.406"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="173.612, 320.417, 79.954" rotation_euler="1.028, 0.000, -0.797"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="400.868, 390.590, 59.276" rotation_euler="0.000, 0.000, 1.788"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="81.878, 343.632, 93.678" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="83.558, 256.803, 93.568" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="91.995, 275.171, 94.705" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="71.235, 323.395, 94.251" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_table_vlandia_tavern_a">
+			<transform position="86.010, 344.069, 93.875" rotation_euler="0.000, 0.000, 0.319"/>
+		</game_entity>
+		<game_entity prefab="bd_table_vlandia_tavern_b">
+			<transform position="78.694, 338.618, 93.918" rotation_euler="0.000, 0.000, 0.751"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="313.862, 246.003, 79.353" rotation_euler="0.000, 0.000, 1.084"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="162.234, 288.086, 77.932" rotation_euler="0.062, 0.000, 2.049" scale="1.145, 1.145, 1.145"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="179.600, 283.151, 78.426" rotation_euler="0.000, -0.547, 0.000"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_e">
+			<transform position="278.268, 358.351, 63.067" rotation_euler="0.112, -0.020, 1.711"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="332.120, 214.206, 73.165" rotation_euler="0.780, -0.333, 1.922"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="150.369, 87.740, 106.371" rotation_euler="0.000, 0.000, 1.866"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="322.287, 215.406, 79.946" rotation_euler="0.388, 0.050, 0.673" scale="0.372, 0.372, 0.372"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_a">
+			<transform position="335.339, 229.349, 84.234" rotation_euler="0.001, -0.004, -0.306" scale="1.345, 1.345, 1.345"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_c">
+			<transform position="297.137, 313.528, 75.453" rotation_euler="1.089, 0.188, 1.991"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_j">
+			<transform position="81.108, 250.500, 93.723" rotation_euler="0.000, 0.000, 3.135"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_e">
+			<transform position="81.075, 253.377, 93.462" rotation_euler="0.000, 0.000, 2.142"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_a">
+			<transform position="79.970, 256.174, 93.364" rotation_euler="0.000, 0.000, 0.577"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_b">
+			<transform position="84.883, 250.420, 93.485" rotation_euler="0.000, -0.011, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_d">
+			<transform position="84.977, 252.723, 93.486" rotation_euler="0.000, 0.000, 0.422"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_e">
+			<transform position="83.396, 255.205, 93.362" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_g">
+			<transform position="79.767, 261.398, 93.627" rotation_euler="0.000, 0.000, 2.579"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_j">
+			<transform position="82.413, 258.932, 93.384" rotation_euler="0.000, 0.000, 1.162"/>
+		</game_entity>
+		<game_entity prefab="burning_campfire_big">
+			<transform position="77.671, 250.454, 93.837" rotation_euler="0.000, 0.000, 1.213"/>
+		</game_entity>
+		<game_entity prefab="burning_campfire">
+			<transform position="74.877, 253.074, 94.779" rotation_euler="0.000, 0.000, -0.684"/>
+		</game_entity>
+		<game_entity prefab="log_beech_group_b">
+			<transform position="81.168, 267.358, 93.929" rotation_euler="0.000, 0.000, -0.123"/>
+		</game_entity>
+		<game_entity prefab="log_beech_group_c">
+			<transform position="87.522, 264.791, 93.830" rotation_euler="0.000, 0.000, 0.082"/>
+		</game_entity>
+		<game_entity prefab="log_beech_group_d">
+			<transform position="86.164, 264.737, 93.638" rotation_euler="0.000, 0.000, 0.121"/>
+		</game_entity>
+		<game_entity prefab="log_beech_f">
+			<transform position="82.305, 266.340, 93.807" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="crate_a">
+			<transform position="90.385, 252.318, 93.860" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="crate_a">
+			<transform position="89.267, 251.919, 93.830" rotation_euler="0.000, 0.000, 0.530"/>
+		</game_entity>
+		<game_entity prefab="market_leek_crate">
+			<transform position="89.869, 252.072, 94.557" rotation_euler="0.000, 0.000, -1.228"/>
+		</game_entity>
+		<game_entity prefab="market_apple_crate">
+			<transform position="89.154, 251.777, 94.532" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="market_cabbage_crate">
+			<transform position="88.250, 251.485, 93.864" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bed_tavern_k">
+			<transform position="78.439, 253.144, 93.816" rotation_euler="0.000, 0.000, -0.878"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_h">
+			<transform position="77.448, 256.796, 93.583" rotation_euler="0.000, 0.000, 0.858"/>
+		</game_entity>
+		<game_entity prefab="bed_ground_i">
+			<transform position="78.912, 259.346, 93.624" rotation_euler="0.000, 0.000, -0.532"/>
+		</game_entity>
+		<game_entity prefab="crate_a">
+			<transform position="88.390, 252.668, 93.836" rotation_euler="0.000, 0.000, 0.248"/>
+		</game_entity>
+		<game_entity prefab="crate_a">
+			<transform position="88.605, 252.414, 94.525" rotation_euler="0.000, 0.000, -0.563"/>
+		</game_entity>
+		<game_entity prefab="bed_straw_a">
+			<transform position="87.220, 254.490, 93.722" rotation_euler="0.000, 0.000, -0.788"/>
+		</game_entity>
+		<game_entity prefab="bed_straw_b">
+			<transform position="81.436, 263.400, 93.764" rotation_euler="0.000, 0.037, 0.000"/>
+		</game_entity>
+		<game_entity prefab="valley_mountain_b">
+			<transform position="1442.620, 198.071, -28.390" rotation_euler="0.000, 0.000, 2.507" scale="2.203, 2.203, 2.203"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="164.084, 37.746, 137.410" rotation_euler="0.000, 0.000, 2.055" scale="2.562, 2.562, 2.562"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="322.911, 232.728, 76.918" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="304.890, 290.537, 77.322" rotation_euler="-0.324, 1.370, 0.248" scale="1.511, 1.511, 1.511"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="270.089, 271.668, 95.649" rotation_euler="0.087, -0.076, 0.760" scale="1.432, 1.432, 1.432"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="124.505, 336.618, 116.903" rotation_euler="0.000, 0.000, 1.448" scale="1.628, 1.628, 1.628"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="375.081, 313.557, 53.086" rotation_euler="0.000, 0.000, -1.833"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="312.941, 248.332, 79.377" rotation_euler="0.000, 0.000, 0.064"/>
+		</game_entity>
+		<game_entity prefab="european_castle_bridge_a_new">
+			<transform position="281.873, 371.981, 59.731" rotation_euler="0.000, 0.000, 0.000" scale="0.681, 0.972, 0.972"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="488.680, 351.397, 36.640" rotation_euler="-0.039, -1.618, 1.508" scale="2.155, 2.155, 2.155"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_bridge_a">
+			<transform position="117.216, 394.498, 115.277" rotation_euler="-1.352, 0.000, -1.671" scale="0.853, 0.853, 0.853"/>
+		</game_entity>
+		<game_entity prefab="waterfall_a">
+			<transform position="118.048, 300.339, 83.211" rotation_euler="0.000, 0.000, 1.560" scale="1.325, 0.830, 1.325"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_a">
+			<transform position="139.920, 310.927, 76.652" rotation_euler="0.000, 0.000, 0.000" scale="1.490, 1.490, 1.490"/>
+		</game_entity>
+		<game_entity prefab="cave_entry_a">
+			<transform position="122.188, 340.233, 86.182" rotation_euler="0.000, 0.000, 1.682" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="142.884, 112.232, 112.647" rotation_euler="0.000, 0.000, 1.816" scale="1.161, 1.161, 1.161"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="493.861, 345.083, 37.046" rotation_euler="0.000, 0.000, 1.919" scale="1.145, 1.145, 1.145"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="179.220, 280.227, 84.089" rotation_euler="-0.434, 0.158, 0.340"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_fence_b">
+			<transform position="309.488, 233.617, 83.043" rotation_euler="0.000, 0.000, -1.872"/>
+		</game_entity>
+		<game_entity prefab="waterfall_a">
+			<transform position="111.388, 299.204, 133.902" rotation_euler="0.000, 0.000, 1.632" scale="0.247, 0.155, 0.247"/>
+			<children>
+				<game_entity _index_="4">
+					<transform non_orthogonal_rotation_mat="0.987502, 0.157608, 0.000000, -0.062727, 0.998031, 0.000000, 0.000000, 0.000000, 1.000000"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="wooden_platform_b">
+			<transform position="312.938, 237.598, 82.768" rotation_euler="0.000, 0.000, 1.274"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="154.952, 506.709, 115.644" rotation_euler="0.000, 0.000, 1.461" scale="1.736, 1.736, 1.736"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="193.026, 321.759, 81.430" rotation_euler="0.017, -0.271, 1.965" scale="1.668, 1.668, 1.668"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_c2">
+			<transform position="164.055, 288.497, 79.423" rotation_euler="0.479, 0.000, -2.370" scale="1.668, 1.668, 1.668"/>
+		</game_entity>
+		<game_entity prefab="cave_rock_wall_b">
+			<transform position="82.223, 246.183, 98.143" rotation_euler="-0.002, -0.495, -0.065" scale="2.113, 2.113, 2.113"/>
+		</game_entity>
+		<game_entity prefab="cave_rock_wall_b">
+			<transform position="81.410, 246.395, 96.635" rotation_euler="0.000, 2.702, -0.070" scale="2.000, 2.000, 2.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="286.202, 191.866, 86.141" rotation_euler="0.000, 0.000, 0.566" scale="4.238, 4.238, 4.238"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="321.754, 182.939, 68.791" rotation_euler="0.060, -0.261, 2.595"/>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="163.653, 298.915, 77.048" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="283.363, 358.460, 63.291" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="346.859, 362.959, 56.237" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="227.185, 329.977, 69.874" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_01_sound">
+			<transform position="138.826, 299.981, 77.048" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="202.469, 305.039, 73.867" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="252.475, 351.921, 67.249" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="313.110, 366.211, 59.696" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="374.974, 354.840, 51.314" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="421.245, 335.599, 45.322" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="325.866, 231.691, 76.955" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_c2">
+			<transform position="288.621, 230.990, 81.648" rotation_euler="0.000, 0.000, 1.053" scale="1.055, 1.055, 1.055"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_b2">
+			<transform position="283.085, 230.257, 82.531" rotation_euler="0.000, 0.000, -0.737" scale="1.329, 1.329, 1.329"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="283.229, 236.892, 82.251" rotation_euler="0.000, 0.000, 2.071" scale="1.442, 1.442, 1.442"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_e">
+			<transform position="166.381, 295.674, 76.732" rotation_euler="-1.542, 0.000, 0.371"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_c">
+			<transform position="334.263, 228.113, 83.988" rotation_euler="0.000, 0.000, 1.238"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="383.513, 195.139, 55.879" rotation_euler="0.000, 0.000, -2.266"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="392.546, 231.372, 57.041" rotation_euler="0.000, 0.000, -1.231"/>
+		</game_entity>
+		<game_entity prefab="river_plane_c">
+			<transform position="178.290, 310.271, 77.806" rotation_euler="0.000, 0.000, 3.118" scale="0.518, 1.657, 16.331"/>
+		</game_entity>
+		<game_entity prefab="editor_plane">
+			<transform position="282.188, 327.946, 63.445" rotation_euler="0.000, 0.130, 0.000" scale="210.024, 108.405, 83.467"/>
+			<physics override_material="water"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="editor_plane_low" material="water_splash"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="192.622, 318.015, 78.015" rotation_euler="0.221, -3.047, 2.670"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="449.291, 363.254, 42.464" rotation_euler="0.000, 0.000, -1.218" scale="2.415, 2.415, 2.415"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="494.474, 156.251, 47.961" rotation_euler="0.000, 0.000, 1.549" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="cave_rock_wall_d">
+			<transform position="79.094, 349.636, 94.719" rotation_euler="0.000, 0.000, 0.064" scale="2.089, 2.089, 2.089"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="271.342, 276.760, 93.549" rotation_euler="0.000, 0.223, 1.472" scale="0.619, 0.619, 0.619"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_c2">
+			<transform position="169.901, 306.878, 77.292" rotation_euler="-0.614, 0.000, 1.064" scale="1.668, 1.668, 1.668"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="415.709, 359.384, 46.619" rotation_euler="0.000, 0.000, -1.857" scale="0.192, 0.192, 0.192"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_c">
+			<transform position="311.606, 228.152, 82.632" rotation_euler="0.088, 0.015, -0.141"/>
+		</game_entity>
+		<game_entity prefab="bed_straw_e">
+			<transform position="88.451, 256.582, 93.650" rotation_euler="0.000, 0.000, -0.864"/>
+		</game_entity>
+		<game_entity prefab="bed_straw_g">
+			<transform position="87.481, 259.844, 93.752" rotation_euler="0.000, 0.025, -0.966"/>
+		</game_entity>
+		<game_entity prefab="fire_stones_battania">
+			<transform position="306.812, 240.361, 79.946" rotation_euler="0.000, 0.000, -0.579" scale="1.127, 1.127, 1.127"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="400.322, 403.694, 49.927" rotation_euler="0.000, 0.000, 0.616"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="405.819, 400.676, 54.680" rotation_euler="0.000, 0.000, -1.363"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_a">
+			<transform position="76.167, 335.344, 93.943" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="vlandia_chest_c">
+			<transform position="79.737, 348.408, 93.754" rotation_euler="0.000, 0.000, -0.112"/>
+		</game_entity>
+		<game_entity prefab="bd_chest_sturgia_c">
+			<transform position="76.996, 345.728, 93.898" rotation_euler="0.000, 0.000, 2.900"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_c_fire">
+			<transform position="83.175, 340.414, 94.561" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_b_fire">
+			<transform position="82.310, 340.436, 94.560" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_a_fire">
+			<transform position="78.393, 338.348, 94.717" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_b_fire">
+			<transform position="79.062, 339.411, 94.717" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_c_fire">
+			<transform position="85.845, 344.039, 94.674" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_c_fire">
+			<transform position="86.734, 344.395, 94.674" rotation_euler="0.000, 0.000, -2.041"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_b_fire">
+			<transform position="77.369, 342.475, 94.618" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_a_fire">
+			<transform position="78.301, 342.228, 94.619" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="detail_river_02_sound">
+			<transform position="460.686, 340.951, 40.165" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="179.075, -2.024, 93.961" rotation_euler="0.000, 0.000, 2.509" scale="2.432, 2.432, 2.432"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="199.350, 606.143, 103.000" rotation_euler="0.000, 0.000, 0.565" scale="2.538, 2.538, 2.538"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_c2">
+			<transform position="490.907, 348.258, 36.630" rotation_euler="0.000, 0.000, 0.000" scale="1.483, 1.483, 1.483"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_k">
+			<transform position="227.003, 561.186, 92.363" rotation_euler="0.000, 0.000, -2.263"/>
+		</game_entity>
+		<game_entity prefab="waterfall_a">
+			<transform position="114.074, 307.973, 133.723" rotation_euler="0.000, 0.000, 0.623" scale="0.373, 0.234, 0.373"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="457.034, 311.721, 41.257" rotation_euler="0.275, 0.355, 2.934" scale="2.974, 2.974, 2.974"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="249.826, 92.539, 73.894" rotation_euler="0.218, 0.000, 1.583"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="2.809, -16.814, 0.288"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="2.302, -8.265, -0.604"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="1.899, -1.417, -1.238"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="1.567, 7.012, -2.513"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="1.249, 14.952, -3.700"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="0.320, 24.004, -4.240"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="0.514, 32.859, -5.743"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="0.656, 41.922, -6.439"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="0.522, 52.782, -8.337"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="324.568, 227.896, 76.944" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="481.324, 368.470, 38.549" rotation_euler="0.000, 0.000, 0.301" scale="1.558, 1.558, 1.558"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="420.289, 387.370, 58.477" rotation_euler="0.000, 0.000, 0.926"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="318.726, 171.727, 67.256" rotation_euler="0.000, 0.000, 0.681" scale="0.564, 0.564, 0.564"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="497.963, 32.270, 49.279" rotation_euler="0.000, 0.000, 1.610" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_a">
+			<transform position="138.602, 293.942, 77.010" rotation_euler="0.000, 0.000, -0.186" scale="1.074, 1.074, 1.074"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="315.731, 246.530, 79.317" rotation_euler="0.000, 0.000, -1.396"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_a">
+			<transform position="315.133, 241.615, 83.060" rotation_euler="0.001, 0.037, 1.313" scale="1.276, 1.276, 1.276"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="314.281, 250.287, 79.323" rotation_euler="0.000, 0.000, 1.739"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="471.013, 319.605, 40.368" rotation_euler="0.000, 0.000, 2.203" scale="0.479, 0.479, 0.479"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="259.355, 267.645, 87.833" rotation_euler="0.008, -0.344, 0.957"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="124.136, 253.807, 144.148" rotation_euler="0.000, 0.000, 1.624" scale="1.936, 1.936, 1.936"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="129.286, 216.825, 110.639" rotation_euler="0.000, -0.155, 1.759" scale="1.046, 1.046, 1.046"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_a">
+			<transform position="140.076, 288.768, 76.923" rotation_euler="0.000, 0.000, 0.000" scale="1.074, 1.074, 1.074"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="494.220, 347.713, 36.785" rotation_euler="1.366, 0.000, 3.059" scale="1.145, 1.145, 1.145"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_d">
+			<transform position="221.824, 561.497, 92.371" rotation_euler="0.000, 0.000, -1.976"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_fence_a">
+			<transform position="333.457, 217.030, 78.033" rotation_euler="0.000, 0.000, -0.520"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_d">
+			<transform position="138.845, 289.431, 76.978" rotation_euler="0.000, 0.000, 0.475" scale="1.606, 1.606, 1.606"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, -7.220" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="rock_cliff_bridge_a">
+			<transform position="120.913, 398.507, 115.741" rotation_euler="-1.564, -3.141, 2.892" scale="1.214, 1.214, 1.214"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="155.042, 75.962, 81.045" rotation_euler="0.000, 0.000, 2.101" scale="1.634, 1.634, 1.634"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_fence_a">
+			<transform position="338.561, 230.437, 84.336" rotation_euler="0.000, 0.000, 2.751" scale="0.931, 0.931, 0.931"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_c">
+			<transform position="137.507, 289.128, 77.067" rotation_euler="0.000, 0.000, 0.000" scale="1.755, 1.755, 1.755"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_c">
+			<transform position="331.450, 220.211, 77.980" rotation_euler="0.000, 0.000, 0.878"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="157.746, 521.595, 139.535" rotation_euler="0.000, 0.000, 0.881" scale="2.430, 2.430, 2.430"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_d">
+			<transform position="206.581, 44.919, 81.215" rotation_euler="0.000, 0.000, -1.055"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_i">
+			<transform position="236.161, 557.884, 92.660" rotation_euler="0.000, 0.000, 1.574"/>
+		</game_entity>
+		<game_entity prefab="merchandise_meat">
+			<transform position="306.651, 240.362, 80.839" rotation_euler="-1.535, 2.801, 2.042" scale="0.932, 0.932, 0.932"/>
+		</game_entity>
+		<game_entity prefab="burning_campfire">
+			<transform position="306.657, 240.260, 79.802" rotation_euler="0.000, 0.000, 0.607"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="141.648, 169.989, 81.081" rotation_euler="0.000, 0.000, 1.804" scale="1.613, 1.613, 1.613"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="265.612, 286.124, 76.756" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="374.759, 348.474, 51.343" rotation_euler="0.000, 0.000, 0.000" scale="2.063, 2.063, 2.063"/>
+		</game_entity>
+		<game_entity prefab="cave_rock_wall_b">
+			<transform position="74.021, 258.102, 94.003" rotation_euler="0.160, 0.000, 1.552" scale="2.416, 2.416, 2.416"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="157.937, 71.604, 141.381" rotation_euler="0.000, 0.000, 1.854" scale="1.945, 1.945, 1.945"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="235.740, 518.144, 80.340" rotation_euler="-0.051, -0.008, -1.713"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="2.726, -17.466, 0.705"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="2.544, -8.522, 0.535"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="1.881, -0.928, 0.149"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="1.565, 6.877, 0.074"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="1.247, 14.793, -0.654"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<transform position="0.318, 23.879, -1.854"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<transform position="0.512, 32.728, -3.247"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<transform position="0.655, 41.822, -4.512"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<transform position="0.519, 52.633, -5.471"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="Fresian_horse">
+			<transform position="310.081, 233.611, 82.945" rotation_euler="-0.003, -3.125, -0.340"/>
+			<components>
+				<cloth_simulator/>
+				<cloth_simulator/>
+				<cloth_simulator/>
+			</components>
+		</game_entity>
+		<game_entity prefab="bd_sturgia_wall_decoration_horn_b">
+			<transform position="310.534, 235.021, 80.871" rotation_euler="0.000, -3.141, -1.809" scale="-0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="european_castle_ladder">
+			<transform position="335.502, 222.958, 68.781" rotation_euler="0.000, 0.000, 1.182"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_ladder_a">
+			<transform position="315.727, 243.966, 82.910" rotation_euler="-1.514, 0.000, 2.886" scale="0.882, 1.171, 1.171"/>
+		</game_entity>
+		<game_entity prefab="waterfall_a">
+			<transform position="113.569, 290.073, 133.814" rotation_euler="0.000, 0.000, 2.289" scale="0.387, 0.242, 0.387"/>
+		</game_entity>
+		<game_entity prefab="waterfall_splash_2">
+			<transform position="131.585, 300.588, 80.025" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="278.721, 280.902, 77.972" rotation_euler="0.000, 0.326, -3.083" scale="0.913, 0.913, 0.913"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_b">
+			<transform position="316.584, 229.708, 81.632" rotation_euler="0.000, -0.276, 1.056"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="486.676, 353.456, 34.083" rotation_euler="0.000, 0.000, -0.893" scale="0.617, 0.617, 0.617"/>
+		</game_entity>
+		<game_entity prefab="waterfall_splash_2">
+			<transform position="132.403, 297.801, 79.431" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_b">
+			<transform position="227.169, 558.600, 92.094" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="193.713, 281.718, 83.946" rotation_euler="0.221, -2.627, 1.941"/>
+		</game_entity>
+		<game_entity prefab="waterfall_splash_2">
+			<transform position="121.997, 302.060, 129.070" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="136.367, 306.292, 77.010" rotation_euler="0.000, 0.000, 0.650" scale="0.864, 0.864, 0.864"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="412.168, 392.981, 58.963" rotation_euler="0.000, 0.000, 2.871"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="195.353, 325.302, 84.768" rotation_euler="1.297, 0.000, 0.329" scale="1.473, 1.473, 1.473"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_e">
+			<transform position="241.246, 556.019, 92.108" rotation_euler="0.000, 0.000, 0.008"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="140.417, 432.695, 122.028" rotation_euler="0.000, 0.000, 1.228" scale="1.331, 1.331, 1.331"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="373.440, 329.829, 57.315" rotation_euler="0.000, 0.000, -1.492" scale="0.577, 0.577, 0.577"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="176.723, 278.014, 84.236" rotation_euler="0.085, 0.034, -1.548"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="317.364, 250.443, 79.173" rotation_euler="0.000, 0.000, 1.774" scale="1.186, 1.186, 1.186"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_heap_a">
+			<transform position="328.790, 227.619, 83.210" rotation_euler="0.000, -0.351, 0.552"/>
+		</game_entity>
+		<game_entity prefab="cave_corridor_c">
+			<transform position="104.905, 340.545, 85.537" rotation_euler="0.000, 0.000, 1.571" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="157.328, 415.407, 85.591" rotation_euler="0.000, 0.000, 1.261" scale="0.780, 0.780, 0.780"/>
+		</game_entity>
+		<game_entity prefab="cave_corner_a">
+			<transform position="81.713, 341.033, 93.773" rotation_euler="0.000, 0.000, 0.000" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="438.834, 357.160, 47.551" rotation_euler="0.507, -0.103, 0.550" scale="0.184, 0.184, 0.184"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="416.098, 315.396, 46.259" rotation_euler="-0.054, 0.355, 1.523" scale="2.974, 2.974, 2.974"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="305.714, 286.367, 81.168" rotation_euler="0.000, 0.000, -2.944" scale="2.806, 2.806, 2.806"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="133.468, 155.475, 137.339" rotation_euler="0.000, 0.000, 1.746" scale="2.864, 2.864, 2.864"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="122.976, 249.621, 108.505" rotation_euler="0.000, 0.127, 1.643" scale="2.225, 1.707, 1.707"/>
+		</game_entity>
+		<game_entity prefab="cave_platform">
+			<transform position="316.296, 243.569, 78.980" rotation_euler="0.000, 0.000, 1.277"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="291.020, 266.815, 84.948" rotation_euler="0.428, 0.099, 0.478" scale="1.637, 1.637, 1.637"/>
+		</game_entity>
+		<game_entity prefab="market_hangedMeats">
+			<transform position="309.202, 223.651, 78.688" rotation_euler="0.000, -0.028, 0.706"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_bridge_a">
+			<transform position="128.336, 412.675, 132.281" rotation_euler="0.087, 0.000, -0.193"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="286.888, 288.638, 78.476" rotation_euler="0.000, 0.101, -1.611" scale="0.925, 0.925, 0.925"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_wide">
+			<transform position="186.778, 311.015, 79.604" rotation_euler="0.000, 0.000, 0.000" scale="0.869, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="river_crossing_grey">
+			<transform position="136.129, 300.020, 77.048" rotation_euler="0.000, 0.000, 2.945" scale="2.024, 2.024, 2.024"/>
+		</game_entity>
+		<game_entity prefab="detail_birds_city_sound">
+			<transform position="254.801, 227.005, 99.847" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_birds_city_sound">
+			<transform position="362.436, 233.346, 78.777" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_birds_forest_sound">
+			<transform position="279.873, 458.171, 91.117" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_birds_forest_sound">
+			<transform position="207.889, 376.050, 89.498" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="detail_birds_lake_sound">
+			<transform position="380.850, 417.077, 71.341" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="crow">
+			<transform position="134.586, 314.936, 93.509" rotation_euler="0.000, 0.000, 0.569" scale="4.500, 4.500, 4.500"/>
+			<skeleton>
+				<bones>
+					<bone frame="0.004377, -0.715490, 0.698609, 0.000000, 0.029636, 0.698402, 0.715092, 0.000000, -0.999551, 0.017574, 0.024261, 0.000000, -0.000000, 0.096099, 0.142053, 1.000000"/>
+					<bone frame="0.206235, 0.580085, 0.788015, 0.000000, 0.107326, 0.787059, -0.607470, 0.000000, -0.972599, 0.209856, 0.100061, 0.000000, -0.000000, 0.018227, 0.038616, 1.000000" _index_="2"/>
+					<bone frame="0.040197, 0.530162, -0.846943, 0.000000, 0.917323, 0.316445, 0.241623, 0.000000, 0.396110, -0.786633, -0.473609, 0.000000, 0.048111, 0.000000, 0.000000, 1.000000" _index_="3"/>
+					<bone frame="-0.260568, -0.947528, -0.185190, 0.000000, -0.935561, 0.295174, -0.193901, 0.000000, 0.238390, 0.122732, -0.963383, 0.000000, -0.048007, 0.015167, 0.034035, 1.000000" _index_="4"/>
+					<bone frame="-0.999698, -0.000381, -0.024584, 0.000000, -0.000372, 1.000000, -0.000381, 0.000000, 0.024584, -0.000372, -0.999698, 0.000000, 0.000000, 0.000000, 0.044112, 1.000000" _index_="5"/>
+					<bone frame="-0.840007, -0.002177, 0.542570, 0.000000, 0.124694, 0.972451, 0.196952, 0.000000, -0.528052, 0.233097, -0.816594, 0.000000, 0.000000, 0.000000, 0.070889, 1.000000" _index_="6"/>
+					<bone frame="0.905235, -0.130988, 0.404218, 0.000000, 0.016055, 0.961163, 0.275514, 0.000000, -0.424609, -0.242915, 0.872181, 0.000000, 0.000000, -0.000000, 0.095645, 1.000000" _index_="7"/>
+					<bone frame="0.468607, 0.239440, 0.850339, 0.000000, -0.277168, 0.953814, -0.115834, 0.000000, -0.838800, -0.181406, 0.513328, 0.000000, 0.001110, 0.000633, 0.039837, 1.000000" _index_="8"/>
+					<bone frame="-0.498565, 0.030277, 0.866324, 0.000000, 0.018209, 0.999535, -0.024453, 0.000000, -0.866661, 0.003584, -0.498884, 0.000000, -0.024104, -0.000158, -0.004355, 1.000000" _index_="9"/>
+					<bone frame="0.028109, 0.365860, 0.930245, 0.000000, -0.695666, 0.675432, -0.244623, 0.000000, -0.717815, -0.640264, 0.273502, 0.000000, -0.019745, -0.000370, 0.044614, 1.000000" _index_="10"/>
+					<bone frame="-0.475790, 0.015975, -0.879413, 0.000000, 0.004044, 0.999864, 0.015975, 0.000000, 0.879549, 0.004044, -0.475790, 0.000000, -0.021754, -0.001190, -0.020680, 1.000000" _index_="11"/>
+					<bone frame="-0.146266, 0.002950, -0.989241, 0.000000, 0.000217, 0.999996, 0.002950, 0.000000, 0.989245, 0.000217, -0.146266, 0.000000, -0.025211, -0.000840, 0.024614, 1.000000" _index_="12"/>
+					<bone frame="-0.245843, 0.949637, 0.194294, 0.000000, -0.935834, -0.284759, 0.207672, 0.000000, 0.252540, -0.130772, 0.958709, 0.000000, 0.048007, 0.015167, 0.034035, 1.000000" _index_="13"/>
+					<bone frame="-0.999687, 0.000182, -0.024978, 0.000000, 0.000177, 1.000000, 0.000182, 0.000000, 0.024978, 0.000177, -0.999687, 0.000000, -0.000000, 0.000000, -0.044112, 1.000000" _index_="14"/>
+					<bone frame="-0.840232, -0.002767, 0.542218, 0.000000, 0.124100, 0.972463, 0.197271, 0.000000, -0.527833, 0.233043, -0.816751, 0.000000, -0.000000, 0.000000, -0.070889, 1.000000" _index_="15"/>
+					<bone frame="0.905270, -0.131276, 0.404045, 0.000000, 0.016257, 0.961068, 0.275832, 0.000000, -0.424525, -0.243134, 0.872161, 0.000000, 0.000000, 0.000000, -0.095644, 1.000000" _index_="16"/>
+					<bone frame="0.451520, 0.238080, 0.859911, 0.000000, -0.273343, 0.954315, -0.120691, 0.000000, -0.849360, -0.180556, 0.495970, 0.000000, -0.001110, -0.000634, -0.039838, 1.000000" _index_="17"/>
+					<bone frame="-0.770376, 0.001471, 0.637587, 0.000000, 0.003126, 0.999994, 0.001471, 0.000000, -0.637581, 0.003126, -0.770376, 0.000000, 0.024104, 0.000157, 0.004355, 1.000000" _index_="18"/>
+					<bone frame="-0.475791, 0.015975, -0.879413, 0.000000, 0.004044, 0.999864, 0.015975, 0.000000, 0.879548, 0.004044, -0.475791, 0.000000, 0.021754, 0.001190, 0.020680, 1.000000" _index_="20"/>
+					<bone frame="-0.146127, -0.001124, -0.989265, 0.000000, -0.000083, 0.999999, -0.001124, 0.000000, 0.989266, -0.000083, -0.146127, 0.000000, 0.025211, 0.000840, -0.024614, 1.000000" _index_="21"/>
+					<bone frame="0.104667, -0.111121, -0.988280, 0.000000, -0.757751, -0.652508, -0.006885, 0.000000, -0.644095, 0.749590, -0.152497, 0.000000, 0.053806, -0.034031, 0.026306, 1.000000" _index_="23"/>
+					<bone frame="0.973507, 0.156165, -0.167021, 0.000000, 0.074594, 0.473583, 0.877584, 0.000000, 0.216146, -0.866794, 0.449388, 0.000000, -0.002737, 0.079557, 0.005605, 1.000000" _index_="24"/>
+					<bone frame="0.969463, 0.074256, 0.233726, 0.000000, 0.190745, 0.370702, -0.908953, 0.000000, -0.154138, 0.925779, 0.345218, 0.000000, 0.005736, 0.008046, -0.045848, 1.000000" _index_="25"/>
+					<bone frame="-0.086357, 0.174075, -0.980938, 0.000000, -0.793006, -0.608022, -0.038085, 0.000000, -0.603062, 0.774601, 0.190549, 0.000000, 0.053806, -0.034031, -0.026306, 1.000000" _index_="27"/>
+					<bone frame="0.972439, -0.152144, 0.176677, 0.000000, -0.055135, 0.586213, 0.808279, 0.000000, -0.226545, -0.795743, 0.561668, 0.000000, 0.002686, 0.079623, 0.004517, 1.000000" _index_="28"/>
+					<bone frame="0.963290, -0.058544, -0.262003, 0.000000, -0.203807, 0.475767, -0.855633, 0.000000, 0.174745, 0.877621, 0.446370, 0.000000, -0.005688, 0.009767, -0.045521, 1.000000" _index_="29"/>
+					<bone frame="0.989357, -0.002247, -0.145492, 0.000000, -0.002602, -0.999994, -0.002247, 0.000000, -0.145486, 0.002602, -0.989357, 0.000000, 0.000420, 0.006840, -0.024160, 1.000000" _index_="30"/>
+				</bones>
+			</skeleton>
+		</game_entity>
+		<game_entity prefab="crow">
+			<transform position="311.580, 238.193, 82.357" rotation_euler="-0.914, 0.105, -2.012"/>
+			<skeleton>
+				<bones>
+					<bone frame="0.018872, -0.713864, 0.700029, 0.000000, 0.023927, 0.700276, 0.713471, 0.000000, -0.999535, 0.003284, 0.030296, 0.000000, -0.000000, 0.096099, 0.142053, 1.000000"/>
+					<bone frame="0.080726, 0.645025, 0.759885, 0.000000, -0.047564, 0.763998, -0.643463, 0.000000, -0.995601, 0.015801, 0.092354, 0.000000, -0.000000, 0.018227, 0.038616, 1.000000" _index_="2"/>
+					<bone frame="0.094295, -0.075086, -0.992709, 0.000000, 0.982520, 0.167786, 0.080637, 0.000000, 0.160508, -0.982960, 0.089595, 0.000000, 0.048111, 0.000000, 0.000000, 1.000000" _index_="3"/>
+					<bone frame="-0.465452, -0.860483, -0.207180, 0.000000, -0.853394, 0.498390, -0.152728, 0.000000, 0.234676, 0.105719, -0.966307, 0.000000, -0.048007, 0.015167, 0.034035, 1.000000" _index_="4"/>
+					<bone frame="-0.988755, 0.062807, -0.135715, 0.000000, 0.064080, 0.997932, -0.005027, 0.000000, 0.135119, -0.013667, -0.990735, 0.000000, 0.000000, 0.000000, 0.044112, 1.000000" _index_="5"/>
+					<bone frame="-0.750424, 0.127314, 0.648579, 0.000000, 0.299128, 0.940448, 0.161492, 0.000000, -0.589395, 0.315196, -0.743818, 0.000000, 0.000000, 0.000000, 0.070889, 1.000000" _index_="6"/>
+					<bone frame="0.936077, -0.237323, 0.259689, 0.000000, 0.154787, 0.940733, 0.301765, 0.000000, -0.315914, -0.242279, 0.917333, 0.000000, 0.000000, -0.000000, 0.095645, 1.000000" _index_="7"/>
+					<bone frame="0.430548, 0.224355, 0.874239, 0.000000, -0.289968, 0.951648, -0.101416, 0.000000, -0.854721, -0.209836, 0.474786, 0.000000, 0.001110, 0.000633, 0.039837, 1.000000" _index_="8"/>
+					<bone frame="-0.502541, 0.037279, 0.863749, 0.000000, 0.024482, 0.999283, -0.028885, 0.000000, -0.864206, 0.006630, -0.503093, 0.000000, -0.024104, -0.000158, -0.004355, 1.000000" _index_="9"/>
+					<bone frame="0.004783, 0.331373, 0.943488, 0.000000, -0.653566, 0.715135, -0.247858, 0.000000, -0.756854, -0.615446, 0.219995, 0.000000, -0.019745, -0.000370, 0.044614, 1.000000" _index_="10"/>
+					<bone frame="-0.485901, 0.022751, -0.873718, 0.000000, 0.005900, 0.999724, 0.022751, 0.000000, 0.873994, 0.005900, -0.485901, 0.000000, -0.021754, -0.001190, -0.020680, 1.000000" _index_="11"/>
+					<bone frame="-0.308925, -0.292628, -0.904950, 0.000000, 0.226021, 0.901644, -0.368716, 0.000000, 0.923840, -0.318443, -0.212400, 0.000000, -0.025211, -0.000840, 0.024614, 1.000000" _index_="12"/>
+					<bone frame="-0.449461, 0.873476, 0.187149, 0.000000, -0.865849, -0.477518, 0.149268, 0.000000, 0.219749, -0.094953, 0.970924, 0.000000, 0.048007, 0.015167, 0.034035, 1.000000" _index_="13"/>
+					<bone frame="-0.988671, 0.063623, -0.135947, 0.000000, 0.064734, 0.997895, -0.003760, 0.000000, 0.135422, -0.012518, -0.990709, 0.000000, -0.000000, 0.000000, -0.044112, 1.000000" _index_="14"/>
+					<bone frame="-0.710838, 0.093490, 0.697115, 0.000000, 0.282262, 0.945733, 0.160986, 0.000000, -0.644234, 0.311204, -0.698652, 0.000000, -0.000000, 0.000000, -0.070889, 1.000000" _index_="15"/>
+					<bone frame="0.925371, -0.133068, 0.354938, 0.000000, 0.032875, 0.961003, 0.274575, 0.000000, -0.377634, -0.242416, 0.893660, 0.000000, 0.000000, 0.000000, -0.095644, 1.000000" _index_="16"/>
+					<bone frame="0.416588, 0.227115, 0.880269, 0.000000, -0.292118, 0.950382, -0.106959, 0.000000, -0.860884, -0.212584, 0.462262, 0.000000, -0.001110, -0.000634, -0.039838, 1.000000" _index_="17"/>
+					<bone frame="-0.770376, 0.001471, 0.637588, 0.000000, 0.003126, 0.999994, 0.001471, 0.000000, -0.637582, 0.003126, -0.770376, 0.000000, 0.024104, 0.000157, 0.004355, 1.000000" _index_="18"/>
+					<bone frame="-0.485902, 0.022751, -0.873717, 0.000000, 0.005900, 0.999724, 0.022751, 0.000000, 0.873993, 0.005900, -0.485902, 0.000000, 0.021754, 0.001190, 0.020680, 1.000000" _index_="20"/>
+					<bone frame="-0.302074, -0.223788, -0.926645, 0.000000, 0.205212, 0.934000, -0.292460, 0.000000, 0.930935, -0.278503, -0.236213, 0.000000, 0.025211, 0.000840, -0.024614, 1.000000" _index_="21"/>
+					<bone frame="0.012724, -0.051952, -0.998568, 0.000000, 0.338153, 0.940034, -0.044598, 0.000000, 0.941005, -0.337102, 0.029529, 0.000000, -0.047688, 0.009943, -0.000000, 1.000000" _index_="22"/>
+					<bone frame="0.116205, -0.127387, -0.985022, 0.000000, -0.836044, -0.547959, -0.027766, 0.000000, -0.536215, 0.826748, -0.170176, 0.000000, 0.053806, -0.034031, 0.026306, 1.000000" _index_="23"/>
+					<bone frame="0.973236, 0.135767, -0.185417, 0.000000, 0.039324, 0.696544, 0.716436, 0.000000, 0.226420, -0.704552, 0.672562, 0.000000, -0.002737, 0.079557, 0.005605, 1.000000" _index_="24"/>
+					<bone frame="0.967428, 0.031510, 0.251178, 0.000000, 0.197137, 0.528686, -0.825608, 0.000000, -0.158809, 0.848232, 0.505254, 0.000000, 0.005736, 0.008046, -0.045848, 1.000000" _index_="25"/>
+					<bone frame="0.999580, -0.010694, -0.026928, 0.000000, 0.011632, 0.999322, 0.034935, 0.000000, 0.026536, -0.035234, 0.999027, 0.000000, 0.000030, 0.007222, -0.024084, 1.000000" _index_="26"/>
+					<bone frame="-0.080697, 0.162651, -0.983378, 0.000000, -0.857089, -0.514953, -0.014840, 0.000000, -0.508808, 0.841645, 0.180962, 0.000000, 0.053806, -0.034031, -0.026306, 1.000000" _index_="27"/>
+					<bone frame="0.972306, -0.127914, 0.195599, 0.000000, -0.020485, 0.787059, 0.616537, 0.000000, -0.232812, -0.603470, 0.762642, 0.000000, 0.002686, 0.079623, 0.004517, 1.000000" _index_="28"/>
+					<bone frame="0.965928, -0.038524, -0.255928, 0.000000, -0.181120, 0.605748, -0.774767, 0.000000, 0.184875, 0.794723, 0.578132, 0.000000, -0.005688, 0.009767, -0.045521, 1.000000" _index_="29"/>
+					<bone frame="0.989338, 0.008058, -0.145414, 0.000000, 0.003994, -0.999594, -0.028217, 0.000000, -0.145582, 0.027335, -0.988968, 0.000000, 0.000420, 0.006840, -0.024160, 1.000000" _index_="30"/>
+				</bones>
+			</skeleton>
+		</game_entity>
+		<game_entity prefab="kitchen_hook">
+			<transform position="310.026, 234.371, 83.060" rotation_euler="0.000, 0.000, 1.114"/>
+		</game_entity>
+		<game_entity prefab="kitchen_hook">
+			<transform position="309.645, 233.093, 83.050" rotation_euler="0.000, 0.000, 1.114"/>
+		</game_entity>
+		<game_entity prefab="kitchen_hook">
+			<transform position="310.105, 232.933, 83.070" rotation_euler="0.000, 0.000, -2.108"/>
+		</game_entity>
+		<game_entity prefab="kitchen_hook">
+			<transform position="310.570, 234.168, 83.060" rotation_euler="0.000, 0.000, -1.960"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="193.813, 329.420, 83.294" rotation_euler="-0.355, 0.537, -0.854" scale="1.814, 1.814, 1.814"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="509.734, 542.826, 44.523" rotation_euler="0.000, 0.000, 1.567" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="129.229, 246.117, 86.449" rotation_euler="0.000, 0.000, 2.584" scale="0.578, 0.578, 0.578"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="82.446, 256.816, 98.829" rotation_euler="0.000, 0.000, -0.073" scale="23.980, 23.980, 23.980"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="84.778, 269.572, 98.049" rotation_euler="0.000, 0.000, 1.474" scale="20.694, 20.694, 20.694"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="90.116, 283.751, 97.073" rotation_euler="0.000, 0.000, -0.028" scale="20.881, 20.881, 20.881"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="81.144, 296.386, 97.543" rotation_euler="0.000, 0.000, 0.034" scale="25.711, 25.711, 25.711"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="74.304, 314.502, 97.289" rotation_euler="0.000, 0.000, -0.068" scale="28.504, 28.504, 28.504"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="80.303, 329.948, 96.790" rotation_euler="0.000, 0.000, 1.314" scale="41.004, 41.004, 41.004"/>
+		</game_entity>
+		<game_entity prefab="_dark_ambient_light">
+			<transform position="80.944, 343.625, 98.170" rotation_euler="0.000, 0.000, 1.532" scale="26.165, 26.165, 26.165"/>
+		</game_entity>
+		<game_entity prefab="river_crossing_brown">
+			<transform position="134.351, 298.815, 77.048" rotation_euler="0.000, 0.000, 0.701" scale="2.796, 2.796, 2.796"/>
+		</game_entity>
+		<game_entity prefab="river_crossing_brown">
+			<transform position="133.729, 302.666, 77.088" rotation_euler="0.000, 0.000, 1.388" scale="2.796, 2.796, 2.796"/>
+		</game_entity>
+		<game_entity prefab="river_crossing_grey">
+			<transform position="134.576, 298.359, 77.048" rotation_euler="0.000, 0.000, -1.635" scale="2.024, 2.024, 2.024"/>
+		</game_entity>
+		<game_entity prefab="river_crossing_grey">
+			<transform position="135.032, 302.920, 77.048" rotation_euler="0.000, 0.000, -0.515" scale="2.024, 2.024, 2.024"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="329.961, 222.128, 78.183" rotation_euler="0.000, 0.000, 0.000" scale="1.901, 1.901, 1.901"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="273.092, 178.007, 87.210" rotation_euler="0.000, 0.000, 0.388"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="132.120, 356.749, 91.740" rotation_euler="0.000, 0.000, 1.177"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="132.591, 383.683, 81.595" rotation_euler="0.000, 0.000, 1.284" scale="1.634, 1.634, 1.634"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="148.565, 196.881, 84.830" rotation_euler="0.000, 0.000, 1.905" scale="1.761, 1.761, 1.761"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_b">
+			<transform position="76.633, 335.420, 93.901" rotation_euler="0.000, 0.000, -0.382"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_c">
+			<transform position="2898.931, 758.925, -56.309" rotation_euler="0.000, 0.000, 2.452" scale="18.667, 18.667, 43.400"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_c"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="507.770, 402.697, 35.401" rotation_euler="0.000, -0.257, 1.624" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="195.431, 318.480, 77.781" rotation_euler="-0.044, -3.047, -1.639"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="234.744, 250.378, 85.887" rotation_euler="0.133, -0.011, 2.648" scale="1.359, 1.359, 1.359"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_bridge_a">
+			<transform position="122.633, 309.867, 141.116" rotation_euler="0.000, 0.000, 0.284" scale="0.530, 0.530, 0.530"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="464.906, 369.215, 40.305" rotation_euler="0.000, 0.000, -1.360" scale="0.524, 0.524, 0.524"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="332.816, 397.177, 61.315" rotation_euler="-0.527, 0.000, 1.514" scale="1.960, 1.960, 1.960"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="295.929, 409.239, 71.246" rotation_euler="0.000, 0.000, -0.819"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="259.475, 279.481, 93.193" rotation_euler="-0.146, -0.448, -0.460" scale="1.645, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="335.905, 241.946, 74.337" rotation_euler="0.208, 0.220, 1.076"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="309.434, 231.951, 77.899" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="123.161, 182.206, 118.212" rotation_euler="0.000, 0.000, 2.851" scale="1.098, 1.098, 1.098"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_d2">
+			<transform position="490.451, 345.223, 36.663" rotation_euler="0.000, 0.000, 0.000" scale="1.785, 1.785, 1.785"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_plank_f_column">
+			<transform position="318.406, 231.350, 77.006" rotation_euler="0.000, 0.000, 1.661"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="196.085, 273.743, 85.033" rotation_euler="0.000, 0.000, -0.678" scale="1.814, 1.814, 1.814"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_b">
+			<transform position="204.959, 48.963, 81.589" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="169.901, 276.279, 81.278" rotation_euler="-0.377, 0.606, -1.272" scale="1.814, 1.814, 1.814"/>
+		</game_entity>
+		<game_entity prefab="bd_hay_cart_b">
+			<transform position="231.038, 557.083, 91.763" rotation_euler="0.000, 0.000, 1.334"/>
+		</game_entity>
+		<game_entity prefab="river_plane_d">
+			<transform position="177.280, 305.339, 77.790" rotation_euler="0.000, 0.129, 0.014" scale="0.828, 5.233, 1.404"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="291.703, 274.162, 87.804" rotation_euler="0.000, 0.000, 0.000" scale="2.162, 2.162, 2.162"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="381.996, 209.423, 65.585" rotation_euler="0.136, 0.000, -0.005"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_plank_f_column">
+			<transform position="319.766, 232.293, 77.006" rotation_euler="0.000, 0.000, 0.431"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="175.503, 30.222, 79.551" rotation_euler="0.000, 0.000, 1.881" scale="1.871, 1.871, 1.871"/>
+		</game_entity>
+		<game_entity prefab="cave_corridor_b">
+			<transform position="79.909, 321.100, 93.437" rotation_euler="0.000, 0.000, 2.811" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="314.005, 233.672, 77.928" rotation_euler="0.000, 0.000, 0.833"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="197.583, 278.854, 84.998" rotation_euler="0.506, 0.037, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="240.169, 228.983, 82.846" rotation_euler="0.133, -0.011, -1.905" scale="1.359, 1.359, 1.359"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="330.830, 22.116, 98.021" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="167.061, 442.380, 79.583" rotation_euler="0.000, 0.000, 1.339" scale="1.508, 1.508, 1.508"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="225.086, 21.366, 84.831" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="210.544, 34.425, 79.087" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="502.545, 342.785, 37.097" rotation_euler="1.366, 0.000, 2.798" scale="3.120, 3.120, 3.120"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_stairs_a">
+			<transform position="309.178, 229.372, 80.891" rotation_euler="-0.080, -0.002, -0.288"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="484.030, 349.117, 36.101" rotation_euler="-0.250, 0.000, 2.527" scale="3.120, 3.120, 3.120"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="261.946, 196.779, 86.123" rotation_euler="-0.169, 0.000, 1.124" scale="1.709, 1.709, 1.709"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_b">
+			<transform position="163.518, 294.923, 76.672" rotation_euler="-0.074, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_C">
+			<transform position="285.901, 233.570, 82.986" rotation_euler="0.000, 0.000, -1.596"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_A">
+			<transform position="282.316, 358.780, 62.818" rotation_euler="0.000, 0.000, -1.526"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_B">
+			<transform position="163.682, 298.966, 77.078" rotation_euler="0.000, 0.000, -1.627"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_fence_a">
+			<transform position="310.724, 237.841, 83.137" rotation_euler="0.000, 0.000, -1.903"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="234.518, 177.712, 81.287" rotation_euler="0.000, 0.000, 1.397" scale="0.564, 0.564, 0.564"/>
+		</game_entity>
+		<game_entity prefab="cave_wall_a">
+			<transform position="83.820, 350.214, 93.833" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="stand_straw_b">
+			<transform position="312.379, 234.956, 77.646" rotation_euler="0.000, 0.000, -1.881" scale="1.476, 1.476, 1.476"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="439.880, 304.812, 43.475" rotation_euler="-0.254, 0.000, -0.324" scale="2.307, 2.307, 2.307"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="146.640, 122.210, 79.999" rotation_euler="0.000, 0.000, 1.469" scale="1.613, 1.613, 1.613"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="494.607, 85.286, 48.461" rotation_euler="0.000, 0.000, 1.549" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="321.385, 205.584, 75.916" rotation_euler="-0.261, -0.433, 1.508"/>
+		</game_entity>
+		<game_entity prefab="waterfall_splash_2">
+			<transform position="122.187, 299.627, 129.193" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="383.520, 339.289, 51.338" rotation_euler="0.000, 0.000, 0.385" scale="2.063, 2.063, 2.063"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="361.679, 319.977, 61.872" rotation_euler="0.000, 0.000, -1.852" scale="0.577, 0.577, 0.577"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="228.661, 213.414, 86.927" rotation_euler="-0.110, 0.354, -1.905" scale="1.359, 1.359, 1.359"/>
+		</game_entity>
+		<game_entity prefab="cave_rock_wall_a">
+			<transform position="73.678, 342.186, 93.834" rotation_euler="0.000, 0.000, 1.385" scale="2.549, 2.549, 2.549"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="300.222, 311.282, 73.170" rotation_euler="0.409, 0.440, 1.165"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="439.381, 34.816, 78.514" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="157.980, 48.741, 150.398" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="324.424, 330.289, 63.343" rotation_euler="-0.344, 0.391, 0.572"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_j">
+			<transform position="234.869, 561.480, 92.578" rotation_euler="0.000, 0.000, 1.912"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_a_fire">
+			<transform position="78.448, 345.621, 94.653" rotation_euler="0.000, 0.000, 0.959"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<light_component shadow_radius="4.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_candle_a_fire">
+			<transform position="79.976, 346.724, 94.796" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<light_component shadow_radius="4.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="foods_chicken_roast">
+			<transform position="79.381, 346.354, 94.653" rotation_euler="0.000, 0.000, -0.991"/>
+		</game_entity>
+		<game_entity prefab="kitchen_mug_c">
+			<transform position="78.647, 346.427, 94.652" rotation_euler="0.000, 0.000, 1.256"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_c">
+			<transform position="75.520, 336.585, 93.943" rotation_euler="0.000, 0.000, 2.054"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_e">
+			<transform position="204.968, 39.482, 79.992" rotation_euler="0.000, 0.000, -0.164"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="175.431, 272.570, 84.841" rotation_euler="0.062, 0.000, -3.054" scale="1.552, 1.552, 1.552"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_a">
+			<transform position="311.371, 232.687, 82.725" rotation_euler="0.000, 0.000, 1.270"/>
+		</game_entity>
+		<game_entity prefab="mp_camera_start_pos">
+			<transform position="142.353, 299.461, 101.131" rotation_euler="0.000, -1.379, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="272.675, 209.403, 81.260" rotation_euler="0.000, 0.000, 2.181"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="143.521, 136.195, 116.066" rotation_euler="0.000, 0.000, 1.542" scale="0.946, 0.946, 0.946"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_b2">
+			<transform position="181.303, 316.143, 78.500" rotation_euler="0.115, 0.000, 0.000" scale="1.252, 1.252, 1.252"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_h">
+			<transform position="200.995, 46.133, 81.565" rotation_euler="0.000, 0.000, 1.036"/>
+		</game_entity>
+		<game_entity prefab="bed_straw_d">
+			<transform position="85.139, 257.843, 93.562" rotation_euler="0.000, 0.000, -1.402"/>
+		</game_entity>
+		<game_entity prefab="bed_straw_c">
+			<transform position="84.233, 261.555, 93.687" rotation_euler="0.000, 0.025, -0.752"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_c">
+			<transform position="163.597, 302.905, 76.557" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_bridge_a">
+			<transform position="112.241, 357.170, 137.889" rotation_euler="-0.076, -3.103, 2.980" scale="1.582, 1.582, 1.582"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="139.379, 330.462, 82.894" rotation_euler="0.000, 0.000, 2.233" scale="0.633, 0.633, 0.633"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_e">
+			<transform position="159.644, 298.708, 76.547" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_d">
+			<transform position="167.641, 298.982, 76.671" rotation_euler="0.000, 0.000, 0.107" scale="0.968, 0.968, 0.968"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="168.565, 555.749, 138.344" rotation_euler="0.000, 0.000, 1.169" scale="3.102, 3.102, 3.102"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="148.909, 433.994, 80.189" rotation_euler="0.000, 0.000, 1.236" scale="1.644, 1.644, 1.644"/>
+		</game_entity>
+		<game_entity prefab="spawn_visual">
+			<transform position="182.628, 300.080, 86.887" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="404.004, 401.114, 57.116" rotation_euler="0.000, 0.000, 1.331"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="189.459, 575.353, 98.017" rotation_euler="0.000, 0.000, 1.188" scale="1.779, 1.779, 1.779"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="314.828, 250.437, 79.173" rotation_euler="0.000, 0.000, 0.000" scale="1.186, 1.186, 1.186"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="181.291, 497.452, 81.509" rotation_euler="0.000, 0.000, 1.019" scale="1.825, 1.825, 1.825"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_stairs_a">
+			<transform position="308.384, 226.690, 78.808" rotation_euler="-0.041, -0.013, -0.308"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_a">
+			<transform position="324.138, 230.283, 81.741" rotation_euler="0.000, 0.000, -2.167" scale="1.060, 1.060, 1.060"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="496.434, 346.708, 37.133" rotation_euler="1.366, 0.000, 3.059" scale="1.407, 1.407, 1.407"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="199.362, 281.675, 79.791" rotation_euler="0.022, -0.296, 2.049" scale="1.668, 1.668, 1.668"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_plank_f_column">
+			<transform position="317.760, 232.905, 77.006" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="486.885, 335.702, 39.577" rotation_euler="-0.307, 0.004, -2.243" scale="0.630, 0.630, 0.630"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="513.193, 574.998, 43.539" rotation_euler="0.000, 0.000, 1.567" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="327.085, 179.680, 68.200" rotation_euler="0.051, 0.275, -0.532"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="315.178, 244.614, 79.224" rotation_euler="0.000, 0.000, -2.072"/>
+		</game_entity>
+		<game_entity prefab="cave_entry_a">
+			<transform position="121.337, 256.915, 86.411" rotation_euler="0.032, 0.007, 1.499" scale="-1.260, 1.260, 1.260"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="377.248, 359.755, 51.017" rotation_euler="0.000, 0.000, -0.304" scale="1.411, 1.411, 1.411"/>
+		</game_entity>
+		<game_entity prefab="bd_roasting_spit_a">
+			<transform position="306.781, 240.441, 79.653" rotation_euler="0.000, 0.000, 0.843" scale="1.138, 1.138, 1.138"/>
+		</game_entity>
+		<game_entity prefab="market_hangedMeats2">
+			<transform position="311.031, 236.552, 79.375" rotation_euler="0.000, 0.000, 1.318"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="140.413, 175.368, 106.696" rotation_euler="0.000, 0.000, 1.774"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_a">
+			<transform position="285.205, 356.237, 62.411" rotation_euler="0.000, 0.077, 0.946"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="317.185, 250.240, 79.304" rotation_euler="0.000, 0.000, -0.107"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="288.131, 181.558, 85.008" rotation_euler="-0.682, 0.092, -1.588"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="129.184, 292.511, 81.621" rotation_euler="0.000, 0.000, 2.737" scale="0.885, 0.885, 0.885"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="176.559, 319.467, 81.428" rotation_euler="0.532, -0.878, 0.780"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="181.611, 294.396, 86.056" rotation_euler="0.000, 0.000, -1.586"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="191.973, 305.390, 86.097" rotation_euler="0.000, 0.000, 1.557"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_b">
+			<transform position="1290.372, -390.375, -140.190" rotation_euler="0.000, 0.000, 1.865" scale="20.595, 20.595, 20.595"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_b"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="valley_mountain_a">
+			<transform position="1103.390, 591.863, -43.670" rotation_euler="0.000, 0.000, 0.899" scale="1.835, 1.835, 1.835"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="328.907, 231.708, 73.680" rotation_euler="0.068, 0.469, -0.024"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="275.217, 266.613, 92.444" rotation_euler="0.428, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="cave_corner_a">
+			<transform position="83.163, 256.943, 93.694" rotation_euler="0.000, 0.000, 1.535" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="299.982, 278.966, 74.652" rotation_euler="0.000, 0.000, 1.517"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_i">
+			<transform position="200.832, 41.628, 81.064" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="77.543, 338.331, 95.189" rotation_euler="0.004, 3.141, 0.686"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="78.471, 339.218, 95.189" rotation_euler="0.004, 3.141, 0.686"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="80.004, 339.349, 95.169" rotation_euler="0.897, -3.038, 0.312"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="85.926, 346.758, 94.162" rotation_euler="-1.563, 0.104, -2.821"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="81.743, 343.514, 95.190" rotation_euler="0.173, 3.073, -0.252"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_b_unsittable">
+			<transform position="85.737, 344.668, 93.861" rotation_euler="0.000, 0.000, 0.722"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_a_unsittable">
+			<transform position="78.579, 347.544, 93.893" rotation_euler="0.000, 0.000, 0.549"/>
+		</game_entity>
+		<game_entity prefab="torch_table_b_fire">
+			<transform position="79.984, 346.835, 94.640" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-0.065, 0.084, 0.851"/>
+					<components>
+						<light_component shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="0.197, 0.008, 0.756"/>
+					<components>
+						<light_component local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="0.179, -0.264, 0.756"/>
+					<components>
+						<light_component local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="-0.232, -0.124, 0.764"/>
+					<components>
+						<light_component local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="-0.075, -0.328, 0.802"/>
+					<components>
+						<light_component local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_table_a_fire">
+			<transform position="78.525, 345.989, 94.653" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-0.022, -0.124, 0.657"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_table_a_fire">
+			<transform position="78.854, 345.727, 94.654" rotation_euler="0.000, 0.000, 0.794"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_c_fire">
+			<transform position="78.617, 345.628, 94.653" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<light_component shadow_radius="4.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_candle_c_fire">
+			<transform position="78.602, 346.146, 94.653" rotation_euler="0.000, 0.000, 2.255"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-0.082, 0.096, 0.355"/>
+					<components>
+						<light_component local_frame_rot="6.000000, 0.000000, 0.000000, 0.000000, 6.000000, 0.000000, 0.000000, 0.000000, 6.000000" shadow_radius="4.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_candle_b_fire">
+			<transform position="78.781, 346.010, 94.653" rotation_euler="0.000, 0.000, -1.245"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<light_component shadow_radius="4.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="155.424, 399.598, 82.133" rotation_euler="0.000, 0.000, 1.432" scale="1.157, 1.157, 1.157"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="66.529, 243.153, 81.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="83.546, 224.300, 137.226" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="281.762, 402.897, 73.257" rotation_euler="-0.023, 0.043, -0.002" scale="0.488, 0.488, 0.488"/>
+		</game_entity>
+		<game_entity prefab="waterfall_splash_2">
+			<transform position="132.432, 302.880, 79.240" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="158.751, 151.768, 83.053" rotation_euler="0.000, 0.000, 2.010"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="262.529, 410.587, 73.495" rotation_euler="0.110, 0.000, -0.926" scale="0.509, 0.509, 0.509"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="320.740, 235.677, 77.932" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_c">
+			<transform position="280.567, 362.189, 63.018" rotation_euler="0.000, 0.107, 0.459"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="110.923, 226.819, 128.979" rotation_euler="-1.497, 0.000, -1.345" scale="2.823, 2.823, 2.823"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_c">
+			<transform position="319.193, 231.662, 81.771" rotation_euler="0.000, 0.000, -1.892" scale="1.078, 1.078, 1.078"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="149.806, 124.663, 91.331" rotation_euler="0.000, 0.000, 1.317" scale="1.393, 1.393, 1.393"/>
+		</game_entity>
+		<game_entity prefab="cave_cliff_road_a">
+			<transform position="122.724, 281.147, 115.110" rotation_euler="0.000, 0.000, 1.512" scale="0.958, 0.788, 0.788"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="272.896, 262.270, 84.397" rotation_euler="0.051, 0.130, -1.072"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_b2">
+			<transform position="493.791, 347.259, 36.630" rotation_euler="1.460, 3.141, 3.094" scale="1.717, 1.717, 1.717"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="275.703, 261.225, 84.026" rotation_euler="-0.051, 0.000, 2.984"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="275.332, 195.083, 92.727" rotation_euler="-0.354, 0.012, 0.223"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="334.060, 240.217, 74.912" rotation_euler="0.039, 0.599, 2.979"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="137.325, 150.538, 115.896" rotation_euler="0.000, 0.000, 1.719" scale="1.151, 1.151, 1.151"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="327.267, 210.954, 76.828" rotation_euler="-0.416, -0.315, -2.894"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_d">
+			<transform position="281.376, 354.985, 62.934" rotation_euler="0.000, 0.095, -0.287"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="395.491, 380.445, 48.491" rotation_euler="0.003, 0.117, 0.029"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="491.606, 312.271, 46.391" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="177.961, 322.160, 84.594" rotation_euler="0.388, 0.000, 0.521"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="312.456, 247.090, 79.292" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="284.229, 312.429, 73.761" rotation_euler="0.000, 0.000, 1.706" scale="1.090, 1.090, 1.090"/>
+		</game_entity>
+		<game_entity prefab="waterfall_a">
+			<transform position="509.882, 344.457, -4.312" rotation_euler="0.000, 0.000, 1.435" scale="1.106, 0.692, 1.106"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_c">
+			<transform position="319.860, 233.616, 82.800" rotation_euler="0.000, -0.380, 1.270"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="377.485, 328.365, 56.887" rotation_euler="0.136, 0.169, 1.228"/>
+		</game_entity>
+		<game_entity prefab="editor_plane">
+			<transform position="444.165, 333.394, 42.325" rotation_euler="0.000, 0.130, 0.000" scale="122.571, 122.571, 122.571"/>
+			<physics override_material="water"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="editor_plane_low" material="water_splash"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="european_castle_bridge_a_new">
+			<transform position="281.745, 345.834, 59.733" rotation_euler="0.000, 0.000, 3.140" scale="0.681, 0.972, 0.972"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="143.858, 88.129, 116.122" rotation_euler="0.000, 0.000, 1.981"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="331.781, 222.384, 77.060" rotation_euler="0.000, 0.000, 1.442" scale="1.901, 1.901, 1.901"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="160.326, 67.342, 105.807" rotation_euler="0.000, 0.047, 2.061" scale="1.164, 1.164, 1.164"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="199.592, 280.887, 81.379" rotation_euler="0.017, -0.861, -1.041" scale="1.668, 1.668, 1.668"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="163.007, 309.312, 76.196" rotation_euler="0.430, 0.000, 0.099" scale="1.883, 1.883, 1.883"/>
+		</game_entity>
+		<game_entity prefab="cave_rock_wall_e">
+			<transform position="72.995, 340.230, 101.295" rotation_euler="0.000, 1.079, 1.602" scale="1.746, 1.746, 1.746"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b2">
+			<transform position="175.752, 327.889, 83.956" rotation_euler="0.062, 0.000, 0.600" scale="1.552, 1.552, 1.552"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="227.366, 218.468, 88.116" rotation_euler="-0.015, 0.206, -1.615" scale="2.191, 2.191, 2.191"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="135.285, 264.058, 84.643" rotation_euler="0.000, 0.000, 0.671" scale="0.684, 0.684, 0.684"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_b">
+			<transform position="160.739, 301.570, 76.978" rotation_euler="-0.033, 3.141, -2.836"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="164.448, 483.233, 79.482" rotation_euler="0.000, 0.000, 1.278" scale="1.644, 1.644, 1.644"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="376.007, 318.302, 64.349" rotation_euler="-0.175, 0.023, -1.706" scale="0.656, 0.656, 0.656"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_b">
+			<transform position="285.118, 361.599, 62.419" rotation_euler="0.000, 0.080, -0.927"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="244.343, 171.933, 73.422" rotation_euler="0.000, 0.000, -2.567"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="181.499, 305.390, 86.067" rotation_euler="0.000, 0.000, -1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_d">
+			<transform position="130.941, 298.520, 77.340" rotation_euler="0.000, 0.000, 1.520" scale="0.471, 0.471, 0.471"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_c">
+			<transform position="166.996, 301.314, 76.774" rotation_euler="-1.518, 0.000, 1.294"/>
+		</game_entity>
+		<game_entity prefab="battania_platform_a">
+			<transform position="312.785, 222.786, 79.360" rotation_euler="0.000, 0.000, -2.429"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_a">
+			<transform position="129.936, 217.998, 81.731" rotation_euler="0.000, 0.000, 1.771" scale="1.541, 1.541, 1.541"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_d2">
+			<transform position="288.419, 236.805, 82.001" rotation_euler="0.000, 0.000, -0.690" scale="1.191, 1.191, 1.191"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="140.893, 115.243, 138.063" rotation_euler="0.000, 0.000, 1.806" scale="2.658, 2.658, 2.658"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_b2">
+			<transform position="177.581, 316.804, 78.373" rotation_euler="1.427, -0.188, 0.000" scale="1.252, 1.252, 1.252"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="507.701, 348.164, 35.935" rotation_euler="-0.250, 0.000, 1.906" scale="3.120, 3.120, 3.120"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="178.901, 586.797, 138.325" rotation_euler="0.000, 0.000, 1.204" scale="3.102, 3.102, 3.102"/>
+		</game_entity>
+		<game_entity prefab="editor_plane">
+			<transform position="146.704, 298.899, 77.048" rotation_euler="0.000, 0.000, 0.000" scale="62.831, 62.831, 62.831"/>
+			<physics override_material="water"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="editor_plane_low" material="water_splash"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="381.741, 308.616, 53.452" rotation_euler="0.000, 0.000, 0.050"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_d">
+			<transform position="2028.578, -262.273, 0.000" rotation_euler="0.000, 0.000, -0.318" scale="72.725, 72.725, 80.631"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_d"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="foods_Sheep head">
+			<transform position="414.815, 571.358, 84.021" rotation_euler="0.569, 0.003, -0.583" scale="2.958, 2.958, 2.958"/>
+		</game_entity>
+		<game_entity prefab="sword_arabian_c">
+			<transform position="175.665, 32.110, 133.076" rotation_euler="-0.136, 0.000, 0.000" scale="2.339, 2.339, 2.339"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_a">
+			<transform position="279.309, 210.141, 76.492" rotation_euler="-0.220, 0.216, 0.276" scale="0.536, 0.536, 0.536"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="297.178, 298.823, 76.127" rotation_euler="0.000, 0.000, 0.296" scale="0.681, 0.681, 0.681"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="133.832, 238.071, 90.520" rotation_euler="0.000, 0.000, 1.765"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_a">
+			<transform position="320.313, 233.438, 82.750" rotation_euler="0.000, -0.360, 1.230"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="314.682, 237.982, 77.989" rotation_euler="0.000, 0.000, 0.833"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="330.005, 246.411, 66.869" rotation_euler="0.065, 0.027, 0.681"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="270.545, 400.502, 74.960" rotation_euler="0.082, -0.813, 0.999"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="498.041, 223.718, 49.173" rotation_euler="0.000, 0.000, 1.515" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="283.362, 187.032, 89.423" rotation_euler="0.000, 0.000, 0.399" scale="0.557, 0.557, 0.557"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="321.333, 228.677, 76.947" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="121.348, 261.661, 111.582" rotation_euler="0.104, 0.000, 1.461" scale="0.844, 0.844, 0.844"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="463.788, 188.017, 64.546" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="473.397, 259.685, 60.681" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="cave_corridor_c">
+			<transform position="106.092, 256.564, 85.392" rotation_euler="0.000, 0.000, 1.599" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_c">
+			<transform position="153.961, 488.766, 138.662" rotation_euler="0.000, 0.000, 1.638" scale="2.430, 2.430, 2.430"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="332.409, 219.444, 75.488" rotation_euler="0.485, 0.273, 0.568"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="317.447, 582.556, 92.352" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="481.974, 578.911, 58.518" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="266.468, 562.771, 90.981" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="172.485, 567.600, 153.057" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="103.238, 389.575, 81.404" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="64.317, 361.077, 80.940" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="279.366, 170.050, 77.504" rotation_euler="0.032, -0.545, 2.219" scale="1.045, 1.045, 1.045"/>
+		</game_entity>
+		<game_entity prefab="cave_corridor_b">
+			<transform position="84.999, 279.146, 93.387" rotation_euler="0.000, 0.000, -0.197" scale="1.282, 1.282, 1.282"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_small_a2">
+			<transform position="488.084, 345.613, 36.624" rotation_euler="-0.039, -1.618, -0.296" scale="2.155, 2.155, 2.155"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="311.505, 238.617, 77.992" rotation_euler="0.000, 0.000, 0.833"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_far_b">
+			<transform position="149.184, 462.830, 114.929" rotation_euler="0.000, 0.000, 1.115"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="427.615, 354.400, 45.540" rotation_euler="-0.296, 0.492, -1.514" scale="1.281, 1.281, 1.281"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_a2">
+			<transform position="179.897, 319.231, 84.624" rotation_euler="-0.279, 0.212, 0.847"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="502.257, 290.579, 39.463" rotation_euler="0.000, 0.282, 1.492" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_b">
+			<transform position="273.285, 400.716, 72.417" rotation_euler="0.000, 0.000, 1.594" scale="0.635, 0.635, 0.635"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="508.853, 472.923, 44.593" rotation_euler="0.000, 0.000, 1.567" scale="2.385, 2.385, 2.385"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="287.701, 173.057, 85.379" rotation_euler="0.090, 0.637, -0.772"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_c">
+			<transform position="300.358, 308.058, 75.648" rotation_euler="-0.387, 0.670, 0.291"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_b">
+			<transform position="119.449, 331.260, 139.190" rotation_euler="0.000, 0.000, 1.359" scale="2.684, 2.684, 2.684"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_top_a">
+			<transform position="146.312, 444.411, 140.932" rotation_euler="0.000, 0.000, 1.247" scale="2.077, 2.077, 2.077"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_b">
+			<transform position="137.041, 307.041, 77.010" rotation_euler="0.000, 0.000, 0.610" scale="1.507, 1.507, 1.507"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="448.575, 124.749, 73.877" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_b">
+			<transform position="428.184, 313.773, 43.566" rotation_euler="0.275, 0.355, -1.973" scale="2.974, 2.974, 2.974"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_a">
+			<transform position="160.896, 295.953, 76.279" rotation_euler="0.000, 0.000, 0.526"/>
+		</game_entity>
+		<game_entity prefab="bd_table_aserai_tavern_c">
+			<transform position="82.928, 340.514, 93.764" rotation_euler="0.000, 0.000, 0.547"/>
+		</game_entity>
+		<game_entity prefab="bd_table_aserai_tavern_b">
+			<transform position="83.205, 347.243, 93.719" rotation_euler="0.000, 0.000, 1.289"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="231.775, 235.723, 86.005" rotation_euler="0.000, 0.000, -2.944"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_fence_a">
+			<transform position="337.152, 217.265, 78.033" rotation_euler="0.000, 0.000, 1.262"/>
+		</game_entity>
+		<game_entity prefab="rock_new_green_b">
+			<transform position="140.969, 312.375, 77.023" rotation_euler="0.000, 0.000, 0.000" scale="1.507, 1.507, 1.507"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_j">
+			<transform position="211.167, 41.367, 80.223" rotation_euler="0.000, 0.000, 1.199"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="277.756, 218.788, 74.524" rotation_euler="-0.006, 0.329, 1.447"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_fence_a">
+			<transform position="338.833, 227.735, 84.336" rotation_euler="0.000, 0.000, 1.213"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_big_c">
+			<transform position="286.976, 196.143, 76.158" rotation_euler="0.290, 0.009, 1.258"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_wide">
+			<transform position="186.780, 288.866, 79.625" rotation_euler="0.000, 0.000, 0.000" scale="0.869, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="122.909, 288.261, 137.925" rotation_euler="0.144, -0.025, 2.381" scale="0.696, 0.696, 0.696"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="6" node_dimension_y="6" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="104.305" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="default">
+				<summer is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_grass_c_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_grass_c_n"/>
+						<texture type="specularmap" name="ground_grass_c_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_grass_c_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default_1">
+				<summer is_enabled="true" name="default_1" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 50.000" scale="10.000, 10.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="stone" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.200" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_floor_b_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_floor_b_n"/>
+						<texture type="specularmap" name="ground_floor_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_floor_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="true"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default_1" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default_1" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default_1" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default_2">
+				<summer is_enabled="true" name="default_2" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.210" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="gravel_a_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="gravel_a_n"/>
+						<texture type="specularmap" name="gravel_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="gravel_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default_2" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default_2" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default_2" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default_3">
+				<summer is_enabled="true" name="default_3" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="desert_floor_a"/>
+						<texture type="areamap" name="desert_floor_a"/>
+						<texture type="normalmap" name="desert_floor_c_n"/>
+						<texture type="specularmap" name="desert_floor_c_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="desert_floor_c_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default_3" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default_3" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default_3" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default_4">
+				<summer is_enabled="true" name="default_4" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="10.000, 10.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.250" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="2.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="forest_a_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="forest_a_n"/>
+						<texture type="specularmap" name="forest_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="forest_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_tree_pines_mix" index="0" density="10.000" seed_index="20" colony_radius="15.000" colony_threshold="0.000" size_min="0.500, 0.500, 0.500" size_max="2.000, 2.000, 2.000" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_tree_beech_mix" index="1" density="10.000" seed_index="20" colony_radius="15.000" colony_threshold="0.000" size_min="0.500, 0.500, 0.500" size_max="2.000, 2.000, 2.000" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.750"/>
+						<mesh name="flora_grass_a" index="2" density="65.000" seed_index="20" colony_radius="10.000" colony_threshold="0.000" size_min="1.000, 1.000, 1.000" size_max="1.500, 1.500, 1.500" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="1.000"/>
+						<mesh name="flora_shrub_mix" index="3" density="25.000" seed_index="0" colony_radius="10.000" colony_threshold="0.000" size_min="0.500, 0.500, 0.500" size_max="1.500, 1.500, 1.500" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_grass_b" index="4" density="15.000" seed_index="0" colony_radius="20.000" colony_threshold="0.000" size_min="1.000, 1.000, 1.000" size_max="1.500, 1.500, 1.500" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="default_4" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default_4" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default_4" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default_5">
+				<summer is_enabled="true" name="default_5" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="10.000, 10.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.200" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="2.500" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="grass_a_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="grass_a_n"/>
+						<texture type="specularmap" name="grass_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="grass_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_grass_a" index="0" density="100.000" seed_index="26" colony_radius="0.000" colony_threshold="0.000" size_min="1.000, 1.000, 1.000" size_max="1.500, 1.500, 1.500" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_grass_b" index="1" density="30.000" seed_index="0" colony_radius="20.000" colony_threshold="0.000" size_min="0.500, 0.500, 0.500" size_max="1.500, 1.500, 1.500" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="1.000"/>
+						<mesh name="flora_green__mix_flower" index="2" density="20.000" seed_index="0" colony_radius="20.000" colony_threshold="0.000" size_min="2.000, 2.000, 2.000" size_max="3.000, 3.000, 3.000" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="default_5" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default_5" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default_5" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.048" min_height="80.925" max_height="82.054">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.048" min_height="80.862" max_height="81.959">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.011" min_height="80.761" max_height="82.010">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.023" min_height="80.792" max_height="81.959">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="4" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.016" min_height="80.933" max_height="81.355">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="5" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.039" min_height="80.510" max_height="81.355">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.056" min_height="73.492" max_height="88.980">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.027" min_height="72.330" max_height="86.585">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="63" layer_is_used_mask_fall="63" layer_is_used_mask_winter="63" layer_is_used_mask_spring="63" layer_is_used_mask="true" height_complexity="1.524" min_height="73.991" max_height="87.511">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="3" occluders_enabled="true" layer_is_used_mask_summer="63" layer_is_used_mask_fall="63" layer_is_used_mask_winter="63" layer_is_used_mask_spring="63" layer_is_used_mask="true" height_complexity="1.521" min_height="73.780" max_height="91.127">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="4" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.095" min_height="74.894" max_height="91.119">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="5" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.826" min_height="78.330" max_height="99.837">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.169" min_height="61.026" max_height="101.449">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.565" min_height="61.025" max_height="86.059">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="63" layer_is_used_mask_fall="63" layer_is_used_mask_winter="63" layer_is_used_mask_spring="63" layer_is_used_mask="true" height_complexity="0.850" min_height="73.991" max_height="96.547">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="3" occluders_enabled="true" layer_is_used_mask_summer="61" layer_is_used_mask_fall="61" layer_is_used_mask_winter="61" layer_is_used_mask_spring="61" layer_is_used_mask="true" height_complexity="0.709" min_height="60.601" max_height="82.601">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="4" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.310" min_height="68.052" max_height="81.692">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="5" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.237" min_height="67.846" max_height="104.305">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="0" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.162" min_height="57.474" max_height="101.119">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="1" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.226" min_height="49.920" max_height="78.197">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="2" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="1.859" min_height="54.304" max_height="82.834">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="3" occluders_enabled="true" layer_is_used_mask_summer="45" layer_is_used_mask_fall="45" layer_is_used_mask_winter="45" layer_is_used_mask_spring="45" layer_is_used_mask="true" height_complexity="0.178" min_height="46.683" max_height="78.270">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="4" occluders_enabled="true" layer_is_used_mask_summer="57" layer_is_used_mask_fall="57" layer_is_used_mask_winter="57" layer_is_used_mask_spring="57" layer_is_used_mask="true" height_complexity="0.084" min_height="57.564" max_height="80.219">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="5" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.085" min_height="53.951" max_height="96.005">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="0" occluders_enabled="true" layer_is_used_mask_summer="17" layer_is_used_mask_fall="17" layer_is_used_mask_winter="17" layer_is_used_mask_spring="17" layer_is_used_mask="true" height_complexity="0.166" min_height="41.861" max_height="89.626">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="1" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.231" min_height="40.312" max_height="83.083">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="2" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.205" min_height="46.331" max_height="66.929">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="3" occluders_enabled="true" layer_is_used_mask_summer="61" layer_is_used_mask_fall="61" layer_is_used_mask_winter="61" layer_is_used_mask_spring="61" layer_is_used_mask="true" height_complexity="0.152" min_height="35.989" max_height="65.839">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="4" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.193" min_height="43.569" max_height="67.746">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="5" occluders_enabled="true" layer_is_used_mask_summer="49" layer_is_used_mask_fall="49" layer_is_used_mask_winter="49" layer_is_used_mask_spring="49" layer_is_used_mask="true" height_complexity="0.293" min_height="51.412" max_height="86.608">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="5" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="29.853" min_height="-100.000" max_height="60.946">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="5" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="10.683" min_height="-100.000" max_height="52.452">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="5" idy="2" occluders_enabled="true" layer_is_used_mask_summer="33" layer_is_used_mask_fall="33" layer_is_used_mask_winter="33" layer_is_used_mask_spring="33" layer_is_used_mask="true" height_complexity="24.129" min_height="-100.000" max_height="52.452">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="5" idy="3" occluders_enabled="true" layer_is_used_mask_summer="41" layer_is_used_mask_fall="41" layer_is_used_mask_winter="41" layer_is_used_mask_spring="41" layer_is_used_mask="true" height_complexity="48.625" min_height="-100.000" max_height="48.886">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="5" idy="4" occluders_enabled="true" layer_is_used_mask_summer="33" layer_is_used_mask_fall="33" layer_is_used_mask_winter="33" layer_is_used_mask_spring="33" layer_is_used_mask="true" height_complexity="54.785" min_height="-100.000" max_height="56.764">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="5" idy="5" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="63.882" min_height="-100.000" max_height="59.328">
+				<texture_levels>
+					<variable name="heightmap_level" value="7"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="7"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="7"/>
+						<variable layer="1" value="7"/>
+						<variable layer="2" value="7"/>
+						<variable layer="3" value="7"/>
+						<variable layer="4" value="7"/>
+						<variable layer="5" value="7"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="187.261, 316.005, 90.015" editor_camera_elevation="-0.683" editor_camera_bearing="28.181" editor_camera_forward="-0.979, 0.047, -0.200" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths/>
+</scene>
+

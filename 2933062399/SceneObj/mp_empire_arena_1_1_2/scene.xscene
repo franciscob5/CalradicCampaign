@@ -1,0 +1,2223 @@
+<?xml version="1.0"?>
+<scene name="mp_empire_arena_1_1_2" version="2">
+	<flora_bounding_rect min="34.493, 28.894" max="266.512, 248.645"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="0.000, 0.000"/>
+		<property name="physics_world_max_" value="300.000, 300.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="210.701, 76.315, 10.105" rotation_euler="0.000, 0.000, 0.836"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="183.220, 206.932, 10.105" rotation_euler="0.000, 0.000, 2.750"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="96.879, 185.381, 10.105" rotation_euler="0.000, 0.000, -2.263"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_door_a_closed">
+			<transform position="121.801, 77.757, 0.105" rotation_euler="0.000, 0.000, 2.574"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b1">
+			<transform position="202.973, 169.065, 0.113" rotation_euler="0.000, 0.000, -0.994"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="135.094, 80.182, 0.725" rotation_euler="0.000, 0.000, -0.592"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b1">
+			<transform position="121.836, 77.650, 0.105" rotation_euler="0.000, 0.000, 2.549"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="122.136, 88.082, 5.773" rotation_euler="0.000, 0.000, -0.594" scale="3.024, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="130.926, 82.722, 5.766" rotation_euler="0.000, 0.000, -0.598" scale="2.211, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="128.572, 97.969, 0.013" rotation_euler="0.000, 0.000, 0.959"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_a">
+			<transform position="136.805, 91.147, 0.013" rotation_euler="0.000, 0.000, 0.960"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="126.713, 95.074, 0.013" rotation_euler="0.000, 0.000, -1.057"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="127.519, 96.616, 0.013" rotation_euler="-0.110, 0.000, -2.736"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="124.427, 91.394, 0.451" rotation_euler="0.000, 0.000, -0.623"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="133.153, 86.085, 0.451" rotation_euler="0.000, 0.000, -0.623"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="125.752, 93.447, 0.013" rotation_euler="0.000, 0.000, 0.973"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="158.486, 128.231, 0.149" rotation_euler="0.000, 0.000, -2.508"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_b_side_building_k">
+			<transform position="176.199, 208.429, 17.101" rotation_euler="0.000, 0.000, -0.152"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="161.234, 136.465, 0.149" rotation_euler="0.000, 0.000, -1.256"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="160.611, 130.607, 0.149" rotation_euler="0.000, 0.000, -2.073"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="146.372, 138.098, 0.149" rotation_euler="0.000, 0.000, 1.059"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="148.448, 140.565, 0.149" rotation_euler="0.000, 0.000, 0.692"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_a2">
+			<transform position="194.679, 121.138, -3.684" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="145.561, 132.417, 0.149" rotation_euler="0.000, 0.000, 1.832"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="131.680, 86.762, 0.038" rotation_euler="0.000, 0.000, -0.634"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="175.575, 91.537, 0.000" rotation_euler="0.000, 0.000, 0.104"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="122.039, 92.092, 0.225" rotation_euler="0.000, 0.000, 0.928"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="123.987, 90.873, 1.354" rotation_euler="0.000, 0.000, -2.115" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="180.167, 84.554, 5.760" rotation_euler="0.000, 0.000, 0.568" scale="3.024, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="188.583, 90.483, 5.754" rotation_euler="0.000, 0.000, 0.563" scale="2.211, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="173.660, 94.395, 0.000" rotation_euler="0.000, 0.000, 2.120"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="174.481, 92.890, 0.000" rotation_euler="-0.110, 0.000, -1.574"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d">
+			<transform position="210.529, 242.684, 13.989" rotation_euler="0.000, 0.000, -1.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="159.043, 168.799, 1.453" rotation_euler="0.021, -2.728, -2.201"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="160.793, 169.822, -0.025" rotation_euler="0.000, 0.000, 0.000" scale="0.651, 0.651, 0.651"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="159.489, 169.470, 0.151" rotation_euler="0.000, 0.000, 0.000" scale="0.772, 0.772, 0.772"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="92.975, 129.211, 0.000" rotation_euler="0.000, 0.000, 1.460"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="152.762, 195.965, 0.000" rotation_euler="0.000, 0.000, 0.192"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="121.399, 172.699, 0.688" rotation_euler="0.000, 0.000, -2.408" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="164.957, 182.122, 0.896" rotation_euler="0.000, 0.000, 2.933" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="114.142, 164.427, 0.861" rotation_euler="0.000, 0.000, -2.091" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="106.375, 113.919, 0.635" rotation_euler="0.000, 0.000, -1.376" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="110.267, 103.091, 0.531" rotation_euler="0.000, 0.000, -1.123" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="151.950, 77.511, 0.600" rotation_euler="0.000, 0.000, -0.012" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="163.485, 79.025, 0.708" rotation_euler="0.000, 0.000, 0.316" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_b2">
+			<transform position="189.905, 122.455, -0.899" rotation_euler="1.532, 0.000, -1.627" scale="0.794, 1.001, 1.001"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="188.624, 120.979, -0.430" rotation_euler="0.014, -0.574, 0.000"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="188.716, 124.227, -0.364" rotation_euler="0.014, -0.574, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_a">
+			<transform position="190.326, 123.591, -5.319" rotation_euler="1.562, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_door_b">
+			<transform position="196.816, 122.519, -4.947" rotation_euler="0.000, 0.000, -1.542"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_b">
+			<transform position="196.730, 122.743, -5.323" rotation_euler="1.564, 0.000, -0.022"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_b2">
+			<transform position="189.905, 122.455, -0.899" rotation_euler="1.532, 0.000, -1.627" scale="0.794, 1.001, 1.001"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_b2">
+			<transform position="194.776, 122.620, -1.146" rotation_euler="1.529, 0.430, -2.055" scale="0.794, 1.001, 1.001"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="115.076, 143.820, 0.040" rotation_euler="-0.110, 0.000, 2.413"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="113.338, 143.900, 0.040" rotation_euler="0.000, 0.000, -2.192"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_a">
+			<transform position="114.037, 133.093, 0.040" rotation_euler="0.000, 0.000, -0.175"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="107.907, 134.267, 0.478" rotation_euler="0.000, 0.000, -1.758"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_corner_side">
+			<transform position="170.191, 224.858, 21.421" rotation_euler="0.000, 0.000, -3.141"/>
+		</game_entity>
+		<game_entity prefab="prt_wm_exponential_dust_desert">
+			<transform position="153.129, 134.504, 0.560" rotation_euler="0.000, 0.000, 0.000" scale="2.000, 2.000, 2.000"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_entrance_c">
+			<transform position="63.626, 161.956, -0.045" rotation_euler="0.000, 0.000, -0.557"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_entrance_b">
+			<transform position="51.527, 168.328, -0.061" rotation_euler="0.000, 0.000, -0.499"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_vlandia_a">
+			<transform position="62.819, 168.177, 0.000" rotation_euler="0.000, 0.000, -0.512"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_aserai_a">
+			<transform position="70.714, 164.076, -0.040" rotation_euler="0.000, 0.000, -0.686"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweapons_shield_c">
+			<transform position="61.005, 169.170, 0.000" rotation_euler="0.000, 0.000, -2.087"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_c">
+			<transform position="67.881, 161.681, 0.000" rotation_euler="0.000, 0.000, -0.521"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_b">
+			<transform position="64.765, 159.566, -0.024" rotation_euler="0.000, 0.000, -0.611"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_corner_solo">
+			<transform position="112.427, 53.090, 10.257" rotation_euler="0.000, 0.000, 0.997"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="175.643, 81.519, 0.717" rotation_euler="0.000, 0.000, 0.569"/>
+		</game_entity>
+		<game_entity prefab="khuzait_ladder_wood_b">
+			<transform position="164.148, 175.087, -8.040" rotation_euler="0.000, 0.000, -1.810"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="116.577, 91.308, 5.986" rotation_euler="0.000, 0.000, -0.581"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="76.235, 129.187, 10.105" rotation_euler="0.000, 0.000, -1.558"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="227.975, 149.503, 0.000" rotation_euler="0.000, 0.000, 1.827"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_c">
+			<transform position="151.584, 102.064, -0.514" rotation_euler="-1.432, -2.025, -2.110"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="189.381, 139.399, 0.448" rotation_euler="0.105, 0.000, -2.874"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="152.232, 100.279, 0.531" rotation_euler="0.000, 0.000, 1.432"/>
+		</game_entity>
+		<game_entity prefab="khuzait_ladder_wood_b">
+			<transform position="155.335, 92.106, -8.092" rotation_euler="0.000, 0.000, 1.453"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="164.431, 165.235, 0.497" rotation_euler="0.000, 0.000, -0.318"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="168.377, 171.803, 0.494" rotation_euler="0.000, 0.000, 1.176"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="158.865, 140.585, 0.736" rotation_euler="0.000, 0.000, -2.463"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="146.942, 129.591, 0.149" rotation_euler="0.000, 0.000, 2.218"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="149.365, 127.417, 0.149" rotation_euler="0.000, 0.000, 2.622"/>
+		</game_entity>
+		<game_entity prefab="empire_wall_stair_a">
+			<transform position="189.894, 122.787, -16.663" rotation_euler="0.000, 0.000, 0.008"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="152.415, 126.431, 0.157" rotation_euler="0.000, 0.000, 3.028"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="155.665, 126.772, 0.188" rotation_euler="0.000, 0.000, -2.833"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="157.507, 141.500, 0.149" rotation_euler="0.000, 0.000, -0.510"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="159.852, 139.340, 0.149" rotation_euler="0.000, 0.000, -0.979"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="154.438, 142.372, 0.149" rotation_euler="0.000, 0.000, -0.036"/>
+		</game_entity>
+		<game_entity prefab="module_aserai_caravanserai_ground">
+			<transform position="216.165, 135.712, -0.606" rotation_euler="0.000, 0.000, -0.259" scale="1.478, 1.478, 1.478"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="151.197, 142.015, 0.149" rotation_euler="0.000, 0.000, 0.287"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_b_side_building_i">
+			<transform position="163.434, 211.649, 11.565" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="34.493, 73.809, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="149.591, 141.477, 0.736" rotation_euler="0.000, 0.000, -1.101"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="163.126, 167.361, 0.438" rotation_euler="0.000, 0.000, 1.433"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="228.566, 134.338, 10.105" rotation_euler="0.000, 0.000, 1.610"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="226.252, 104.091, 10.105" rotation_euler="0.000, 0.000, 1.290"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="fence_old_a6">
+			<transform position="188.506, 139.147, 1.086" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="108.433, 142.294, 0.137" rotation_euler="0.000, 0.000, -1.769"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="160.503, 128.588, -0.168" rotation_euler="0.000, 0.000, 2.295"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="145.108, 130.429, -0.168" rotation_euler="0.000, 0.000, 0.529"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="154.338, 125.312, -0.168" rotation_euler="0.000, 0.000, 1.767"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="150.351, 125.732, -0.168" rotation_euler="0.000, 0.000, 1.252"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="262.187, 198.269, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="153.626, 28.894, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="266.512, 108.382, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="72.290, 35.693, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="217.878, 45.413, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="111.769, 76.732, 0.000" rotation_euler="0.000, 0.000, 1.003"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="222.412, 162.966, 10.105" rotation_euler="0.000, 0.000, 2.029"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="190.352, 164.521, 0.045" rotation_euler="0.000, 0.000, 2.106"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="198.623, 159.579, 5.780" rotation_euler="0.000, 0.000, 2.147" scale="3.024, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="192.624, 167.946, 5.774" rotation_euler="0.000, 0.000, 2.142" scale="2.211, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_a">
+			<transform position="139.319, 172.633, 0.010" rotation_euler="0.000, 0.000, -1.420"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="142.656, 183.158, 0.723" rotation_euler="0.000, 0.000, -2.972"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="193.199, 156.052, 0.020" rotation_euler="0.000, 0.000, -2.570"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="195.221, 157.424, 0.458" rotation_euler="0.000, 0.000, 2.117"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="149.813, 175.086, 0.010" rotation_euler="-0.110, 0.000, 1.168"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_a">
+			<transform position="183.922, 162.486, 0.020" rotation_euler="0.000, 0.000, -2.583"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="161.630, 134.767, 0.694" rotation_euler="0.000, 0.000, -1.688"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="165.993, 167.848, 3.146" rotation_euler="0.000, 0.000, 1.363" scale="1.245, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="bd_ladder_b">
+			<transform position="187.935, 138.387, -0.900" rotation_euler="0.191, 0.000, 1.990"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="163.907, 168.405, 3.093" rotation_euler="0.000, 0.000, 1.363" scale="1.245, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="90.282, 132.815, 0.095" rotation_euler="0.000, 0.000, -1.622"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="151.247, 191.599, 0.101" rotation_euler="0.000, 0.000, -2.697"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="123.542, 80.375, 0.105" rotation_euler="0.000, 0.000, -0.662"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="130.531, 187.523, 0.111" rotation_euler="0.000, 0.000, -3.011"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="187.571, 83.188, 0.093" rotation_euler="0.000, 0.000, 0.625"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="110.857, 79.869, 0.054" rotation_euler="0.000, 0.000, -0.461"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="95.096, 130.371, 0.130" rotation_euler="0.000, 0.000, -1.622"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="90.220, 139.360, 0.139" rotation_euler="0.000, 0.000, -3.043"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="115.637, 76.041, 0.106" rotation_euler="0.000, 0.000, 0.510"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="91.200, 144.625, 0.133" rotation_euler="0.000, 0.000, -0.484"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="195.355, 122.544, -5.006" rotation_euler="0.000, 0.000, 1.553"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="98.807, 140.597, 0.132" rotation_euler="0.000, 0.000, -1.757"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="178.163, 74.942, 0.105" rotation_euler="0.000, 0.000, 0.386"/>
+		</game_entity>
+		<game_entity prefab="spawn_visual">
+			<transform position="62.988, 160.432, 0.556" rotation_euler="0.000, 0.000, -2.269"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-6.659, -2.184, -0.556"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="-6.284, 0.593, -0.556"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="-0.640, -0.452, -0.556" rotation_euler="0.000, 0.000, -1.467"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="-1.439, -2.105, -0.556"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="-2.396, 0.810, -0.556" rotation_euler="0.000, 0.000, -1.844"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<transform position="-7.121, -0.904, -0.556" rotation_euler="0.000, 0.000, -1.502"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="200.337, 178.607, 0.074" rotation_euler="0.000, 0.000, 1.911"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="207.695, 169.590, 0.105" rotation_euler="0.000, 0.000, -2.480"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="209.447, 165.971, 0.112" rotation_euler="0.000, 0.000, -2.820"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="188.409, 74.015, 0.088" rotation_euler="0.000, 0.000, 2.035"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="205.732, 172.419, 0.105" rotation_euler="0.000, 0.000, 0.586"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="200.584, 167.406, 0.113" rotation_euler="0.000, 0.000, 2.052"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="195.181, 78.667, 0.088" rotation_euler="0.000, 0.000, -0.797"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="183.015, 70.368, 0.040" rotation_euler="0.000, 0.000, 0.734"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="196.872, 179.330, 0.000" rotation_euler="0.000, 0.000, -0.943"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="204.157, 176.142, 0.119" rotation_euler="0.000, 0.000, 1.197"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="212.411, 166.395, 0.000" rotation_euler="0.000, 0.000, 0.610"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="129.361, 69.469, 0.082" rotation_euler="0.000, 0.000, -0.670"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="198.678, 84.627, 0.079" rotation_euler="0.000, 0.000, 0.558"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="207.946, 131.869, -5.845" rotation_euler="0.000, 0.000, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="126.273, 58.240, 10.105" rotation_euler="0.000, 0.000, -0.439"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_keep_b_side_building_n">
+			<transform position="169.092, 214.598, 15.792" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="123.349, 71.965, 0.098" rotation_euler="0.000, 0.000, -1.981"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="95.542, 152.709, 0.131" rotation_euler="0.000, 0.000, -1.719"/>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="131.446, 224.131, 13.448" rotation_euler="0.000, 0.000, -2.862"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="187.340, 56.948, 10.105" rotation_euler="0.000, 0.000, 0.461"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="201.197, 125.479, 0.798" rotation_euler="0.000, 0.000, 1.542" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="198.798, 108.255, 0.876" rotation_euler="0.000, 0.000, 1.118" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="201.101, 120.784, 0.784" rotation_euler="0.000, 0.000, 1.517" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="175.937, 179.208, 0.867" rotation_euler="0.000, 0.000, 2.742" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_a">
+			<transform position="191.313, 171.945, 5.961" rotation_euler="0.000, 0.000, 2.523"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="100.324, 74.303, 10.105" rotation_euler="0.000, 0.000, -0.777"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="fence_old_b7">
+			<transform position="188.384, 139.482, 0.991" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="fence_old_a6">
+			<transform position="188.371, 139.364, 1.066" rotation_euler="0.000, 0.000, -1.315"/>
+		</game_entity>
+		<game_entity prefab="bd_ladder_b">
+			<transform position="192.904, 142.200, 0.051" rotation_euler="-1.303, 0.000, 2.634"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="188.395, 139.021, 1.286" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="fence_c">
+			<transform position="188.336, 139.724, 0.478" rotation_euler="-0.292, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_fence_b">
+			<transform position="191.887, 141.240, 0.828" rotation_euler="0.994, 0.000, 2.071" scale="0.717, 0.717, 0.717"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_fence_b">
+			<transform position="188.819, 138.589, 1.283" rotation_euler="-0.484, 0.000, 2.071"/>
+		</game_entity>
+		<game_entity prefab="khuzait_arena_fence_c">
+			<transform position="188.930, 138.304, 1.292" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_a">
+			<transform position="183.196, 99.230, 0.000" rotation_euler="0.000, 0.000, 2.121"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="195.829, 157.732, 1.361" rotation_euler="0.000, 0.000, 0.625" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="160.101, 141.799, 0.000" rotation_euler="0.000, 0.000, 0.758"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="197.146, 155.848, 0.233" rotation_euler="0.000, 0.000, -2.615"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_door_a_closed">
+			<transform position="202.963, 168.952, 0.113" rotation_euler="0.000, 0.000, -0.969"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="176.685, 90.008, 0.000" rotation_euler="0.000, 0.000, 2.134"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="145.646, 136.687, 0.662" rotation_euler="0.000, 0.000, -1.810"/>
+		</game_entity>
+		<game_entity prefab="fence_h">
+			<transform position="188.543, 138.866, 0.999" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="193.306, 92.194, 5.956" rotation_euler="0.000, 0.000, 1.043"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="205.830, 133.089, 6.022" rotation_euler="0.000, 0.000, 1.745"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="185.723, 248.645, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="63.381, 169.665, 4.925" rotation_euler="0.000, 0.000, -0.563" scale="0.624, 0.624, 0.624"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="231.561, 120.833, 0.000" rotation_euler="0.000, 0.000, 1.473"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="220.649, 89.556, 0.000" rotation_euler="0.000, 0.000, 1.042"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="136.735, 196.259, 0.097" rotation_euler="0.000, 0.000, 1.593"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="142.693, 197.458, 0.096" rotation_euler="0.000, 0.000, -1.466"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="131.510, 191.859, 0.094" rotation_euler="0.000, 0.000, -3.011"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="156.703, 49.454, 10.105" rotation_euler="0.000, 0.000, 0.008"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="206.817, 189.562, 10.105" rotation_euler="0.000, 0.000, 2.393"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="121.978, 180.701, -5.861" rotation_euler="0.000, 0.000, -2.638"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="112.647, 172.817, -5.839" rotation_euler="0.000, 0.000, -2.291"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="146.536, 99.835, 0.487" rotation_euler="1.480, -0.055, 0.723"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="163.586, 170.615, 0.436" rotation_euler="0.000, 0.000, 1.433"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="147.997, 128.379, 0.736" rotation_euler="0.000, 0.000, -2.408"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_a2">
+			<transform position="186.019, 121.178, -3.604" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="152.658, 212.375, 10.105" rotation_euler="0.000, 0.000, -3.080"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_keep_a">
+			<transform position="62.603, 228.399, 16.755" rotation_euler="0.000, 0.000, -1.497"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="153.164, 186.013, 0.727" rotation_euler="0.000, 0.000, -2.972"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="191.678, 154.929, 0.020" rotation_euler="0.000, 0.000, 1.683"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="157.141, 127.357, 0.622" rotation_euler="0.000, 0.000, -1.087"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="154.027, 101.692, 0.547" rotation_euler="0.000, 0.000, -0.068"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="163.531, 188.965, -5.854" rotation_euler="0.000, 0.000, 3.037"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="172.816, 186.945, -5.821" rotation_euler="0.000, 0.000, 2.878"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="184.177, 181.593, -5.775" rotation_euler="0.000, 0.000, 2.486"/>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="107.271, 217.470, 13.448" rotation_euler="0.000, 0.000, -0.273"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="135.167, 79.126, 6.060" rotation_euler="0.000, 0.000, -0.254"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_a">
+			<transform position="154.321, 73.983, 6.002" rotation_euler="0.000, 0.000, 0.310"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="174.993, 80.740, 5.973" rotation_euler="0.000, 0.000, 0.580"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="163.311, 134.636, 0.000" rotation_euler="0.000, 0.000, -0.177"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="194.580, 90.474, 0.090" rotation_euler="0.000, 0.000, 0.602" scale="-1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low"/>
+			</components>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="192.573, 93.294, 0.713" rotation_euler="0.000, 0.000, 0.569"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="177.315, 78.611, 0.090" rotation_euler="0.000, 0.000, 0.602"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="189.814, 165.853, 1.355" rotation_euler="0.000, 0.000, 0.625" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="201.695, 155.081, 0.737" rotation_euler="0.000, 0.000, 2.148"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="102.392, 129.122, 6.032" rotation_euler="0.000, 0.000, -1.439"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="111.457, 144.084, 0.040" rotation_euler="0.000, 0.000, -0.162"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="197.335, 201.845, 0.000" rotation_euler="0.000, 0.000, 2.572"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="178.041, 87.974, 0.438" rotation_euler="0.000, 0.000, 0.538"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="188.836, 152.990, 0.020" rotation_euler="0.000, 0.000, -2.584"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="148.445, 180.999, 0.448" rotation_euler="0.000, 0.000, -3.003"/>
+		</game_entity>
+		<game_entity prefab="torch_wall_b">
+			<transform position="62.754, 164.483, 2.201" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="207.673, 145.074, -5.896" rotation_euler="0.000, 0.000, 1.661"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="188.813, 167.111, 0.215" rotation_euler="0.000, 0.000, -2.607"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="107.899, 135.888, 0.064" rotation_euler="0.000, 0.000, -1.769"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="137.757, 182.787, 5.764" rotation_euler="0.000, 0.000, -2.978" scale="2.211, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="149.985, 173.379, 0.010" rotation_euler="0.000, 0.000, -1.421"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_door_a_closed">
+			<transform position="140.932, 192.678, 0.103" rotation_euler="0.000, 0.000, 0.194"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="148.404, 181.679, 1.351" rotation_euler="0.000, 0.000, 1.788" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="154.066, 186.479, 5.983" rotation_euler="0.000, 0.000, -2.961"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="138.564, 179.378, 1.345" rotation_euler="0.000, 0.000, 1.788" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="150.656, 182.142, 0.223" rotation_euler="0.000, 0.000, -1.452"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b1">
+			<transform position="95.483, 140.966, 0.132" rotation_euler="0.000, 0.000, 1.414"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="103.918, 134.866, 5.793" rotation_euler="0.000, 0.000, -1.733" scale="2.211, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="108.378, 144.598, 1.381" rotation_euler="0.000, 0.000, 3.033" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="105.798, 150.496, 0.757" rotation_euler="0.000, 0.000, -1.727"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="109.036, 144.419, 0.478" rotation_euler="0.000, 0.000, -1.758"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="105.136, 139.627, 0.752" rotation_euler="0.000, 0.000, -1.727"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="107.407, 134.539, 1.375" rotation_euler="0.000, 0.000, 3.033" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="116.747, 143.436, 0.040" rotation_euler="0.000, 0.000, -0.176"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="81.597, 159.086, 10.105" rotation_euler="0.000, 0.000, -1.886"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_a">
+			<transform position="175.348, 183.523, 5.895" rotation_euler="0.000, 0.000, 3.015"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="158.556, 71.661, -5.972" rotation_euler="0.000, 0.000, 0.130"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="143.576, 73.146, -5.986" rotation_euler="0.000, 0.000, -0.329"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_c">
+			<transform position="204.345, 111.091, 5.918" rotation_euler="0.000, 0.000, 1.499"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="83.627, 99.533, 10.105" rotation_euler="0.000, 0.000, -1.239"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_tower_a">
+			<transform position="42.999, 106.266, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="218.180, 179.929, 0.000" rotation_euler="0.000, 0.000, 2.086"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="173.742, 49.958, 0.000" rotation_euler="0.000, 0.000, 0.267"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="146.751, 127.142, 0.000" rotation_euler="0.000, 0.000, 0.765"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="194.907, 163.595, 0.733" rotation_euler="0.000, 0.000, 2.148"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="189.779, 171.911, 0.733" rotation_euler="0.000, 0.000, 2.148"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="204.590, 156.777, 0.110" rotation_euler="0.000, 0.000, 2.181"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="192.583, 173.942, 0.110" rotation_euler="0.000, 0.000, 2.181" scale="-1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="194.246, 159.406, 0.118" rotation_euler="0.000, 0.000, 2.106"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_a2">
+			<transform position="194.843, 124.022, -3.690" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_a2">
+			<transform position="186.057, 124.037, -3.598" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="186.522, 70.698, 0.000" rotation_euler="0.000, 0.000, -0.983"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="127.125, 85.836, 0.725" rotation_euler="0.000, 0.000, -0.592"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="92.014, 152.018, 0.091" rotation_euler="0.000, 0.000, -1.719"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="149.917, 198.890, 0.059" rotation_euler="0.000, 0.000, -2.697"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="202.480, 154.437, 5.993" rotation_euler="0.000, 0.000, 2.159"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="108.662, 146.879, 0.252" rotation_euler="0.000, 0.000, -0.207"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="168.931, 74.349, -5.939" rotation_euler="0.000, 0.000, 0.478"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="201.891, 99.869, -5.870" rotation_euler="0.000, 0.000, 1.084"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="206.535, 113.333, -5.847" rotation_euler="0.000, 0.000, 1.394"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="199.993, 86.371, 0.000" rotation_euler="0.000, 0.000, 0.647"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="90.366, 149.680, 0.000" rotation_euler="0.000, 0.000, -0.157"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="131.321, 70.423, 0.000" rotation_euler="0.000, 0.000, 2.565"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_tower_round_a_l3">
+			<transform position="122.582, 203.810, 10.105" rotation_euler="0.000, 0.000, -2.705"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+						<game_entity _index_="1">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="203.322, 64.880, 0.000" rotation_euler="0.000, 0.000, 0.689"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantbakery_e">
+			<transform position="66.336, 162.124, 2.152" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="38.910, 132.513, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="110.643, 247.740, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="35.638, 189.028, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_camera_start_pos">
+			<transform position="137.033, 78.109, 12.990" rotation_euler="0.891, 0.000, -0.636"/>
+		</game_entity>
+		<game_entity prefab="bd_torch_khuzait_lord_a">
+			<transform position="67.987, 166.189, -0.499" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="190.334, 153.824, 0.020" rotation_euler="-0.110, 0.000, 0.005"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="138.466, 178.816, 0.448" rotation_euler="0.000, 0.000, -3.003"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="132.236, 185.127, 0.100" rotation_euler="0.000, 0.000, -2.939" scale="-1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b1">
+			<transform position="140.833, 192.732, 0.103" rotation_euler="0.000, 0.000, 0.169"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="149.331, 176.758, 0.010" rotation_euler="0.000, 0.000, 2.846"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="154.739, 98.746, 2.965" rotation_euler="0.000, 0.000, -1.691" scale="1.430, 0.970, 0.970"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="163.411, 166.004, 3.020" rotation_euler="0.000, 0.000, -0.158" scale="1.089, 1.089, 1.089"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="152.867, 101.521, 2.894" rotation_euler="-0.025, 0.000, 3.045" scale="1.164, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="165.463, 165.503, 3.093" rotation_euler="0.000, 0.000, -0.242" scale="1.111, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_c">
+			<transform position="154.981, 101.273, 2.821" rotation_euler="0.000, 0.000, 3.053" scale="1.089, 1.089, 1.089"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="105.646, 151.499, 6.013" rotation_euler="0.000, 0.000, -1.716"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="107.307, 132.935, 0.234" rotation_euler="0.000, 0.000, -0.200"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="102.512, 151.174, 0.130" rotation_euler="0.000, 0.000, -1.695"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="103.375, 130.016, 0.752" rotation_euler="0.000, 0.000, -1.727"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="99.933, 130.386, 0.130" rotation_euler="0.000, 0.000, -1.694" scale="-1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="105.067, 145.097, 5.800" rotation_euler="0.000, 0.000, -1.729" scale="3.024, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_c">
+			<transform position="59.426, 166.596, -0.045" rotation_euler="0.000, 0.000, 1.120"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_interior_flag">
+			<transform position="70.863, 165.008, 4.898" rotation_euler="0.000, 0.000, -0.563" scale="0.624, 0.624, 0.624"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="162.966, 131.638, 0.000" rotation_euler="0.000, 0.000, -0.180"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_a">
+			<transform position="104.691, 109.123, 6.097" rotation_euler="0.000, 0.000, -0.979"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="143.670, 134.226, 0.000" rotation_euler="0.000, 0.000, -0.180"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="144.154, 136.999, 0.000" rotation_euler="0.000, 0.000, -0.180"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="156.338, 143.219, -0.168" rotation_euler="0.000, 0.000, 1.281"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="134.108, 84.979, 0.207" rotation_euler="0.000, 0.000, 0.935"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="133.306, 77.218, 0.103" rotation_euler="0.000, 0.000, -0.559" scale="-1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="184.214, 88.236, 0.713" rotation_euler="0.000, 0.000, 0.569"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b1">
+			<transform position="189.616, 80.125, 0.093" rotation_euler="0.000, 0.000, -2.573"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_door_a_closed">
+			<transform position="189.504, 80.136, 0.093" rotation_euler="0.000, 0.000, -2.548"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="115.549, 88.331, 0.103" rotation_euler="0.000, 0.000, -0.559"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="126.098, 89.950, 0.110" rotation_euler="0.000, 0.000, -0.634"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="117.551, 91.023, 0.730" rotation_euler="0.000, 0.000, -0.592"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_corner_side">
+			<transform position="261.621, 159.757, 20.991" rotation_euler="0.000, 0.000, 0.232"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_shop_door_b">
+			<transform position="186.940, 125.283, -0.776" rotation_euler="1.161, 1.585, -1.607" scale="1.966, 2.519, 1.941"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="201.404, 140.480, 0.777" rotation_euler="0.000, 0.000, 1.636" scale="1.217, 1.217, 1.217"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_wall_a_l3">
+			<transform position="167.002, 213.138, 0.000" rotation_euler="0.000, 0.000, 3.014"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="80.845, 151.893, 15.518" rotation_euler="0.000, 0.000, -1.798"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="79.534, 189.199, 14.619" rotation_euler="0.000, 0.000, -2.154"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="70.334, 167.188, 15.857" rotation_euler="0.000, 0.000, 1.126"/>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="74.218, 105.275, 14.070" rotation_euler="0.000, 0.000, 1.860"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="132.695, 85.746, 1.348" rotation_euler="0.000, 0.000, -2.115" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_a">
+			<transform position="132.625, 182.538, 6.102" rotation_euler="0.000, 0.000, -2.496"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_door_a_closed">
+			<transform position="95.566, 141.043, 0.132" rotation_euler="0.000, 0.000, 1.438"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="140.000, 179.343, 0.035" rotation_euler="0.000, 0.000, -3.014"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="137.012, 178.958, 0.205" rotation_euler="0.000, 0.000, -1.444"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="146.239, 180.890, 0.108" rotation_euler="0.000, 0.000, -3.014"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_b_part_a">
+			<transform position="132.988, 181.748, 0.723" rotation_euler="0.000, 0.000, -2.972"/>
+		</game_entity>
+		<game_entity prefab="empire_bridge_a_connection_c">
+			<transform position="147.816, 184.976, 5.771" rotation_euler="0.000, 0.000, -2.973" scale="3.024, 1.645, 1.645"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="152.576, 99.008, 2.947" rotation_euler="0.000, 0.000, -1.673" scale="1.314, 1.006, 1.006"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_grandstand_b">
+			<transform position="115.888, 170.642, 6.147" rotation_euler="0.000, 0.000, -2.048"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_a">
+			<transform position="157.354, 102.041, -0.447" rotation_euler="1.487, 2.019, -2.154"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="176.449, 86.062, 0.213" rotation_euler="0.000, 0.000, 2.089"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="186.514, 93.310, 1.335" rotation_euler="0.000, 0.000, -0.954" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="187.780, 94.300, 0.195" rotation_euler="0.000, 0.000, 2.097"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_wall">
+			<transform position="178.343, 87.363, 1.341" rotation_euler="0.000, 0.000, -0.954" scale="0.878, 0.878, 0.878"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="180.031, 88.932, 0.098" rotation_euler="0.000, 0.000, 0.527"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="186.386, 93.865, 0.438" rotation_euler="0.000, 0.000, 0.538"/>
+		</game_entity>
+		<game_entity prefab="fence_h">
+			<transform position="188.378, 139.507, 0.951" rotation_euler="-0.230, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="167.486, 169.453, 0.512" rotation_euler="0.000, 0.000, 1.244"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="152.591, 143.370, -0.168" rotation_euler="0.000, 0.000, 1.695"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_connective">
+			<transform position="185.178, 92.783, 0.025" rotation_euler="0.000, 0.000, 0.527"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="161.572, 138.434, -0.168" rotation_euler="0.000, 0.000, 0.566"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_short1">
+			<transform position="146.466, 140.245, -0.168" rotation_euler="0.000, 0.000, 2.331"/>
+		</game_entity>
+		<game_entity prefab="empire_hippodrome_enterance_wall_corner2">
+			<transform position="189.260, 165.720, 0.458" rotation_euler="0.000, 0.000, 2.117"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="148.903, 178.598, 0.010" rotation_euler="0.000, 0.000, -1.407"/>
+		</game_entity>
+		<game_entity prefab="empire_dungeon_corridor_b4">
+			<transform position="152.755, 189.343, 0.100" rotation_euler="0.000, 0.000, -2.939"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="212.541, 163.006, 0.065" rotation_euler="0.000, 0.000, 2.286"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<transform position="141.390, 189.909, 0.103" rotation_euler="0.000, 0.000, -2.862"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="145.262, 134.000, 0.626" rotation_euler="0.000, 0.000, -1.753"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_end">
+			<transform position="161.333, 132.134, 0.666" rotation_euler="0.000, 0.000, -1.878"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="148.866, 143.034, 0.000" rotation_euler="0.000, 0.000, 2.016"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b_damaged">
+			<transform position="157.965, 125.848, 0.000" rotation_euler="0.000, 0.000, -1.052"/>
+		</game_entity>
+		<game_entity prefab="empire_house_shrine_a">
+			<transform position="75.931, 148.471, 17.525" rotation_euler="0.000, 0.000, -0.817"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_medium">
+			<transform position="220.561, 111.077, 13.979" rotation_euler="0.000, 0.000, -1.912"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="105.601, 161.017, -5.829" rotation_euler="0.000, 0.000, -1.951"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="99.314, 120.085, -5.940" rotation_euler="0.000, 0.000, -1.522"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="102.071, 106.048, -6.069" rotation_euler="0.000, 0.000, -1.235"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="107.949, 95.495, -6.088" rotation_euler="0.000, 0.000, -0.873"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_a_side_building_e">
+			<transform position="207.614, 126.589, -5.891" rotation_euler="0.000, 0.000, 3.117"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_a">
+			<transform position="122.436, 37.298, 15.869" rotation_euler="0.000, 0.000, 2.897"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_c">
+			<transform position="69.892, 73.682, 11.436" rotation_euler="0.000, 0.000, -1.045"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_b">
+			<transform position="103.674, 59.512, 11.986" rotation_euler="0.000, 0.000, 0.997"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_c">
+			<transform position="90.011, 41.282, 16.056" rotation_euler="0.000, 0.000, -0.423"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_c">
+			<transform position="250.893, 163.764, 15.242" rotation_euler="0.000, 0.000, -1.250"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_corner_side">
+			<transform position="246.911, 175.621, 20.619" rotation_euler="0.000, 0.000, 1.826"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b2">
+			<transform position="166.426, 166.291, 0.512" rotation_euler="0.000, 0.000, 1.244"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="155.371, 99.868, 0.480" rotation_euler="0.000, 0.000, 1.452"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="3" node_dimension_y="3" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="default">
+				<summer is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.050" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="desert_floor_a"/>
+						<texture type="areamap" name="desert_floor_a"/>
+						<texture type="normalmap" name="desert_floor_a_n"/>
+						<texture type="specularmap" name="desert_floor_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="desert_floor_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="earth">
+				<summer is_enabled="true" name="earth" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.120" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_roads_a_d_noalpha"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="empire_road_floor_a_dirt2_n"/>
+						<texture type="specularmap" name="empire_road_floor_a_dirt2_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="empire_road_floor_a_dirt2_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="earth" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="earth" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="earth" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="flora_1">
+				<summer is_enabled="true" name="flora_1" is_flora_layer="true" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_drygrass_b_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_drygrass_b_n"/>
+						<texture type="specularmap" name="ground_drygrass_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_drygrass_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_grass_b_non_shadow" index="0" density="50.000" seed_index="4" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="plant_dry_grass" index="1" density="50.000" seed_index="5" colony_radius="50.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="flora_1" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="flora_1" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="flora_1" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="more_grass">
+				<summer is_enabled="true" name="more_grass" is_flora_layer="true" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_earth_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_earth_n"/>
+						<texture type="specularmap" name="ground_earth_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_earth_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_grass_b_non_shadow" index="0" density="30.000" seed_index="0" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="more_grass" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="more_grass" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="more_grass" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="mud">
+				<summer is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_earth_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_earth_n"/>
+						<texture type="specularmap" name="ground_earth_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_earth_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="bloodmud">
+				<summer is_enabled="true" name="bloodmud" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="0.049, 0.003, 0.003" albedo_factor_mode="1" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_mud_b_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_mud_b_n"/>
+						<texture type="specularmap" name="ground_mud_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_mud_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="bloodmud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="bloodmud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="bloodmud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="51" layer_is_used_mask_fall="51" layer_is_used_mask_winter="51" layer_is_used_mask_spring="51" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="31" layer_is_used_mask_fall="31" layer_is_used_mask_winter="31" layer_is_used_mask_spring="31" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="63" layer_is_used_mask_fall="63" layer_is_used_mask_winter="63" layer_is_used_mask_spring="63" layer_is_used_mask="true" height_complexity="1.895" min_height="-12.895" max_height="1.376">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="0.171" min_height="-0.033" max_height="0.672">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="60.659, 156.976, 1.488" editor_camera_elevation="-0.160" editor_camera_bearing="0.994" editor_camera_forward="0.388, 0.920, -0.054" author="Suspicious Man" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths/>
+</scene>
+
